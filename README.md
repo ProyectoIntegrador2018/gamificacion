@@ -1,8 +1,7 @@
 # Gamificación para la capacitación de guardias
 
-Se propone diseñar y crear un videojuego con el fin de proporcionar una manera interactiva y adictiva de educar a los guardias en los casos más complicados y comunes.
-El juego consistirá de situaciones en la vida real que se contestan seleccionando una de las opciones múltiples o arrastrando la respuesta a su caja correcta, fomentando un aprendizaje propio y la retención de los conceptos.
-Al sistema se accedería con un usuario o con su número de legajo con el fin de poder monitorear el progreso de los usuarios
+Here lies the source code for the game (name not decided yet), its purpose is to educate guards in Ternium's more common and complicated situations in a fun and addictive way.
+The game will consist in real life situations where the user will have to select the correct answer to the problem the game will present, fostering self-learning and retaining the information learned. The system will be accessed by using their employee ID with the purpose of monitoring employee activity and progress
 
 
 ## Table of contents
@@ -25,7 +24,9 @@ Al sistema se accedería con un usuario o con su número de legajo con el fin de
 
 | Name               | Email             | Role |
 | ------------------ | ----------------- | ---- |
-| Ivineg  Vargas | c.yalvah@ternium.com.mx | CEO  |
+| Ivineg  Vargas |c.ivargd@ternium.com.mx | Product Owner  |
+| Salvador Guzman | c.sguzml@ternium.com.mx| Sistems adivsor  |
+| Yetzaley Aracely Alvarado | c.yalvah@ternium.com.mx | Coordinator  |
 
 
 ### Environment URLS
@@ -37,10 +38,10 @@ Al sistema se accedería con un usuario o con su número de legajo con el fin de
 
 | Name           | Email             | Role        |
 | -------------- | ----------------- | ----------- |
-| Fabiana Serangelli Andrade | A01281445@itesm.mx | Development |
-| Oscar Lerma Franco | A01380817@itesm.mx | Development |
-| Raul Flores Gracia | A00820377@itesm.mx | Admini |
-| Ricardo Reyes Alcala | 	A01281564@itesm.mx | Development |
+| Fabiana Serangelli Andrade | A01281445@itesm.mx | Development Team, Scrum Master |
+| Oscar Lerma Franco | A01380817@itesm.mx | Development Team, Project Administrator |
+| Raul Flores Gracia | A00820377@itesm.mx | Development Team, Configuration Administrator |
+| Ricardo Reyes Alcala | 	A01281564@itesm.mx | Development Team, Product Owner Proxy |
 
 ### Technology Stack
 | Technology    | Version      |
@@ -53,9 +54,10 @@ Al sistema se accedería con un usuario o con su número de legajo con el fin de
 You should ask for access to this tools if you don't have it already:
 
 * [Github repo](https://github.com/)
-* [Backlog]()
-* [Documentation](https://drive.google.com/drive/folders/1hSnvCFzSxh5k6L1uqLL_Tl9V21jkyIzV)
-
+* [Backlog](https://trello.com/b/UXsHjwQ9/brigada-de-la-gamificaci%C3%B3n)
+* [Documentation in Google Drive](https://drive.google.com/drive/folders/1hSnvCFzSxh5k6L1uqLL_Tl9V21jkyIzV)
+* [Microsoft Teams](https://teams.microsoft.com/l/channel/19%3ab95b032363214d299ee713e734c3c07e%40thread.tacv2/General?groupId=c13a590f-8442-4453-bf96-cc9cc6fe360f&tenantId=c65a3ea6-0f7c-400b-8934-5a6dc1705645)
+ 
 ## Development
 
 ### Rules of using Git
