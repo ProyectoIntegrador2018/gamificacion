@@ -1,6 +1,8 @@
-# Nombre del proyecto
+# Gamificación para la capacitación de guardias
 
-Application to be awesome
+Here lies the source code for the game (name not decided yet), its purpose is to educate guards in Ternium's more common and complicated situations in a fun and addictive way.
+The game will consist in real life situations where the user will have to select the correct answer to the problem the game will present, fostering self-learning and retaining the information learned. The system will be accessed by using their employee ID with the purpose of monitoring employee activity and progress
+
 
 ## Table of contents
 
@@ -22,7 +24,9 @@ Application to be awesome
 
 | Name               | Email             | Role |
 | ------------------ | ----------------- | ---- |
-| Nombre del cliente | prueba@prueba.com | CEO  |
+| Ivineg  Vargas |c.ivargd@ternium.com.mx | Product Owner  |
+| Salvador Guzman | c.sguzml@ternium.com.mx| Sistems adivsor  |
+| Yetzaley Aracely Alvarado | c.yalvah@ternium.com.mx | Coordinator  |
 
 
 ### Environment URLS
@@ -34,28 +38,73 @@ Application to be awesome
 
 | Name           | Email             | Role        |
 | -------------- | ----------------- | ----------- |
-| Nombre miembro | prueba@prueba.com | Development |
-| Nombre miembro | prueba@prueba.com | Development |
-| Nombre miembro | prueba@prueba.com | Development |
+| Fabiana Serangelli Andrade | A01281445@itesm.mx | Development Team, Scrum Master |
+| Oscar Lerma Franco | A01380817@itesm.mx | Development Team, Project Administrator |
+| Raul Flores Gracia | A00820377@itesm.mx | Development Team, Configuration Administrator |
+| Ricardo Reyes Alcala | 	A01281564@itesm.mx | Development Team, Product Owner Proxy |
 
 ### Technology Stack
 | Technology    | Version      |
 | ------------- | -------------|
-| Technology 1  | ##.##.##     |
-| Technology 2  | ##.##.##     |
-| Technology 3  | ##.##.##     |
+| Unity | 2019.1     |
+| Web GL  | 2.0     |
 
 ### Management tools
 
 You should ask for access to this tools if you don't have it already:
 
 * [Github repo](https://github.com/)
-* [Backlog]()
-* [Heroku](https://crowdfront-staging.herokuapp.com/)
-* [Documentation](https://drive.com)
-
+* [Backlog](https://trello.com/b/UXsHjwQ9/brigada-de-la-gamificaci%C3%B3n)
+* [Documentation in Google Drive](https://drive.google.com/drive/folders/1hSnvCFzSxh5k6L1uqLL_Tl9V21jkyIzV)
+* [Microsoft Teams](https://teams.microsoft.com/l/channel/19%3ab95b032363214d299ee713e734c3c07e%40thread.tacv2/General?groupId=c13a590f-8442-4453-bf96-cc9cc6fe360f&tenantId=c65a3ea6-0f7c-400b-8934-5a6dc1705645)
+ 
 ## Development
 
+### Rules of using Git
+We will have one branch per backlog item and branches will use this name scheme
+{username}/{type of story}-{story number}/{story name}
+branches will only be merged using pull request and asking for #TeraBlitz as reviewer and only he will resolve the pull request.
+
+## Pull request format
+# Description
+
+Please include a summary of the change and/or which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+
+Fixes # (issue)
+
+## Type of change
+
+Please delete options that are not relevant.
+
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] This change requires a documentation update
+
+# How Has This Been Tested?
+
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+
+- [ ] Test A
+- [ ] Test B
+
+**Test Configuration**:
+* Firmware version:
+* Hardware:
+* Toolchain:
+* SDK:
+
+# Checklist:
+
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+
+
+
+### ALL OF THIS HAS NOT BEEN CHANGED
 ### Setup the project
 
 You'll definitely want to install [`plis`](https://github.com/IcaliaLabs/plis), as in this case will
