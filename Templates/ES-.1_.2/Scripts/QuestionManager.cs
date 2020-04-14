@@ -20,8 +20,9 @@ public class QuestionManager : MonoBehaviour
     bool Opt2;
     bool Opt3;
 
-
-   
+    //controladores de vidas y score
+    public int vidasAquitar;
+    public int puntosAdar;
 
     //Esto es para que podamos definir a que pregunta brincamos, gracias al index, solo tenemos que ponerlas en el orden correcto
     //Checar el Moqup para ver la ruta
@@ -166,11 +167,11 @@ public class QuestionManager : MonoBehaviour
         Btn3.GetComponentInChildren<Text>().text = QA.Opc3;
 
         if      (Opt1 == true) { 
-            
+            GameMind.Instance.takeAwayLive(vidasAquitar);
             myState = States.falseState; 
         }
         else if (Opt2 == true){
-           
+            GameMind.Instance.takeAwayLive(vidasAquitar);
             myState = States.falseState2;
         }
         else if (Opt3 == true){ 
