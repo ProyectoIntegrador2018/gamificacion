@@ -175,7 +175,7 @@ public class QuestionManager : MonoBehaviour
             myState = States.falseState2;
         }
         else if (Opt3 == true){ 
-            
+            GameMind.Instance.score=GameMind.Instance.score+puntosAdar;
             myState = States.trueState;  
             }
     }
