@@ -5,13 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class GameMind : MonoBehaviour {
 
-    public int Vidas;
-    public int Score;
+    public static GameMind Instance;
+    void start () {
+        lives= 3;
+    }
+    public int lives;
+    public int score;
 
-    //Aqui pueden poner el sistema de vidas y de score
-    void Start()
-    {
-
+    void Awake () {
+        if (Instance == null) {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }
+        else if (Instance != this) {
+            Destroy (gameObject);
+        }
+    }
     }
 
     void Update()
