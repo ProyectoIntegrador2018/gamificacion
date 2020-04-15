@@ -11,7 +11,10 @@ public class ItemSlot : MonoBehaviour, IDropHandler {
         Debug.Log("OnDrop");
         GameObject droppedObject = eventData.pointerDrag;
         if (eventData.pointerDrag != null) {
-            droppedObject.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+        	Vector3 position = GetComponent<RectTransform>().anchoredPosition;
+        	position.y += GlobalVariables.sumPos;
+            droppedObject.GetComponent<RectTransform>().anchoredPosition = position;
+            GlobalVariables.sumPos = GlobalVariables.sumPos - 120;
         }
     }
 }

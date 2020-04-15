@@ -20,6 +20,10 @@ public class QuestionManager : MonoBehaviour
     bool Opt2;
     bool Opt3;
    
+    //controladores de vidas y score
+    public int vidasAquitar;
+    public int puntosAdar;
+
     //Esto es para que podamos definir a que pregunta brincamos, gracias al index, solo tenemos que ponerlas en el orden correcto
     //Checar el Moqup para ver la ruta
     //Esta es la escnea que sigue, mas abajo se define cual sera
@@ -108,6 +112,7 @@ public class QuestionManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         //Cargar el estado principal
         myState = States.Questions;
         //Cargar la pregunta correcta
@@ -123,6 +128,8 @@ public class QuestionManager : MonoBehaviour
 
            default: QA = QE; break;
         }
+        
+        
 
         //Revolver los cuadros de respuesta
         Revolver(QA.Correct);
@@ -160,9 +167,18 @@ public class QuestionManager : MonoBehaviour
         Btn2.GetComponentInChildren<Text>().text = QA.Opc2;
         Btn3.GetComponentInChildren<Text>().text = QA.Opc3;
 
-        if      (Opt1 == true){ myState = States.falseState; }
-        else if (Opt2 == true){ myState = States.falseState2;}
-        else if (Opt3 == true){ myState = States.trueState;  }
+        if      (Opt1 == true) { 
+            GameMind.Instance.takeAwayLive(vidasAquitar);
+            myState = States.falseState; 
+        }
+        else if (Opt2 == true){
+            GameMind.Instance.takeAwayLive(vidasAquitar);
+            myState = States.falseState2;
+        }
+        else if (Opt3 == true){ 
+            GameMind.Instance.score=GameMind.Instance.score+puntosAdar;
+            myState = States.trueState;  
+            }
     }
 
     //El estado cuando le atina
