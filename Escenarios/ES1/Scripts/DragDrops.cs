@@ -5,8 +5,8 @@ using UnityEngine.EventSystems;
 using UnityEngine.Networking;
 using System.IO;
 
-public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler {
-
+public class DragDrops : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler {
+    
     [SerializeField] private Canvas canvas;
 
     private RectTransform rectTransform;
@@ -14,6 +14,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     private Vector3 defaultPos;
     public bool droppedOnSlot = false;
     private bool itemWasHere = false;
+    
 
     private void Awake() {
         rectTransform = GetComponent<RectTransform>();
@@ -38,22 +39,23 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
         if (droppedOnSlot == false && itemWasHere == true) {
-            Debug.Log("Out of area");
-            rectTransform.anchoredPosition = defaultPos;  
-            if (GlobalVariables.cont > 0) {
-                GlobalVariables.items.Remove(this.gameObject);
-                Debug.Log("Removed");
-            }
+        	Debug.Log("Out of area");
+        	rectTransform.anchoredPosition = defaultPos; 
+        	GlobalVariables.pairAnswerSlot.Remove(int.Parse(this.gameObject.tag));
+        	Debug.Log("Count: " + GlobalVariables.pairAnswerSlot.Count);
         }
         if (droppedOnSlot == false && itemWasHere == false) {
             Debug.Log("Out of area");
-            rectTransform.anchoredPosition = defaultPos;  
+            rectTransform.anchoredPosition = defaultPos;
+            Debug.Log("Count: " + GlobalVariables.pairAnswerSlot.Count);
         }
         if (droppedOnSlot == true) {
-            Debug.Log("Inside of area");
-            GlobalVariables.items.Add(this.gameObject);
-            Debug.Log("Added");
-            itemWasHere = true;
+        	Debug.Log("Inside of area");
+        	itemWasHere = true;
+        	int intTag = int.Parse(this.gameObject.tag);
+        	Debug.Log(intTag);
+        	GlobalVariables.pairAnswerSlot.Add(intTag, GlobalVariables.currentTagItem);
+        	Debug.Log("Count: " + GlobalVariables.pairAnswerSlot.Count);
         }
     }
 
@@ -62,18 +64,19 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     }
 
     public static string statusAnswer() {
-        Debug.Log(GlobalVariables.items.Count);
-        if (GlobalVariables.items.Exists(x => x.name == "Item1") && 
-            GlobalVariables.items.Exists(x => x.name == "Item2") && 
-            GlobalVariables.items.Exists(x => x.name == "Item3") && 
-            GlobalVariables.items.Exists(x => x.name == "Item4") && 
-            GlobalVariables.items.Count == 4) {
-            Debug.Log("Correct");
-            return "Correct";
-        } else {
-            Debug.Log("Incorrect");
-            return "Incorrect";
+    	string answer;
+        foreach(KeyValuePair<int, int> x in GlobalVariables.pairAnswerSlot) {
+        	// Debug.Log(x.Key);
+        	// Debug.Log(x.Value);
+        	if (x.Key == x.Value) {
+        		Debug.Log("Correct");
+        		answer = "Correct";
+        	} else {
+        		Debug.Log("Incorrect");
+        		return "Incorrect";
+        		break;
+        	}
         }
+        return "Correct";
     }
 }
-
