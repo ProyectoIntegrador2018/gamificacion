@@ -849,7 +849,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 41
     m_Alignment: 4
@@ -1167,6 +1167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2122c448da743cd448223d6281813f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
 --- !u!81 &1918619949
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1351,10 +1352,10 @@ MonoBehaviour:
   vidasFallo2: 0
   vidasAquitar: 0
   puntosAdar: 0
-  SigEscenaCorrecto: 5
-  SigEscenaError1: 5
-  SigEscenaError2: 6
-  PreguntaActual: 5
+  SigEscenaCorrecto: 0
+  SigEscenaError1: 0
+  SigEscenaError2: 0
+  PreguntaActual: 8
 --- !u!1 &2114720971
 GameObject:
   m_ObjectHideFlags: 0
