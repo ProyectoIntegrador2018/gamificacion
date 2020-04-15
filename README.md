@@ -29,10 +29,6 @@ The game will consist in real life situations where the user will have to select
 | Yetzaley Aracely Alvarado | c.yalvah@ternium.com.mx | Coordinator  |
 
 
-### Environment URLS
-
-* **Production** - [TBD](TBD)
-* **Development** - [TBD](TBD)
 
 ### Da team
 
@@ -46,8 +42,7 @@ The game will consist in real life situations where the user will have to select
 ### Technology Stack
 | Technology    | Version      |
 | ------------- | -------------|
-| Unity | 2019.1     |
-| Web GL  | 2.0     |
+| Unity | 2019.3.6f1     |
 
 ### Management tools
 
