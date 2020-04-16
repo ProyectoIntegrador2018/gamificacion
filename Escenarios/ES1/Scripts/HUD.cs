@@ -1,37 +1,38 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class HUD : MonoBehaviour
-{
+// Clase para los elementos graficos relacionados a variables
+public class HUD : MonoBehaviour {
+    
+    // Variables publicas
     public Sprite[] LivesSprites;
     public Image LivesUI;
     public Text Score;
 
-    void Start()
-    {
+    void Start() {
         Score.text = "0";
     }
 
-    void Update()
-    {
+    void Update() {
+        // Variable de vidas
         if (GlobalVariables.lives > 0) {
             LivesUI.sprite = LivesSprites[GlobalVariables.lives];
         } else {
             LivesUI.sprite = LivesSprites[0];
         }
 
+        // Variable de puntaje
         Score.text = GlobalVariables.score.ToString();
-        
     }
 
-    public void ResetGame() //TODO Beutify the reset button with a warning
-    {
+    // Reiniciar el juego
+    public void ResetGame() {
         GlobalVariables.lives = 5;
         GlobalVariables.score = 0;
-        SceneManager.LoadScene("P1"); //TODO : Replace for Main Menu
+        SceneManager.LoadScene("P1");
     }
 
 }

@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
+// Clase para el espacio donde se deposita un objeto
 public class ItemSlot : MonoBehaviour, IDropHandler {
 
+    // Funcion donde identifica cuando se deja caer un objto en el espacio
     public void OnDrop(PointerEventData eventData) {
     	eventData.pointerDrag.GetComponent<DragDrop>().droppedOnSlot = true;
         Debug.Log("OnDrop");

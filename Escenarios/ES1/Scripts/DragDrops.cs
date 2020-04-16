@@ -5,23 +5,26 @@ using UnityEngine.EventSystems;
 using UnityEngine.Networking;
 using System.IO;
 
+// Clase para los objetos que son arrastrables
 public class DragDrops : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler {
     
-    [SerializeField] private Canvas canvas;
-
+    // Variables privadas
+    [SerializeField] private Canvas canvas = null;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     private Vector3 defaultPos;
-    public bool droppedOnSlot = false;
     private bool itemWasHere = false;
-    
 
+    // Variables publicas
+    public bool droppedOnSlot = false;
+    
     private void Awake() {
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
         defaultPos = GetComponent<RectTransform>().localPosition;
     }
 
+    // Objeto se empieza a arrastrar
     public void OnBeginDrag(PointerEventData eventData) {
         Debug.Log("OnBeginDrag");
         canvasGroup.alpha = .6f;
@@ -29,11 +32,13 @@ public class DragDrops : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         droppedOnSlot = false;
     }
 
+    // Objeto siendo arrastrado
     public void OnDrag(PointerEventData eventData) {
         Debug.Log("OnDrag");
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
+    // Objeto dejo de ser arrastrado
     public void OnEndDrag(PointerEventData eventData) {
         Debug.Log("OnEndDrag");
         canvasGroup.alpha = 1f;
@@ -59,22 +64,19 @@ public class DragDrops : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         }
     }
 
+    // Mouse presionado
     public void OnPointerDown(PointerEventData eventData) {
         Debug.Log("OnPointerDown");
     }
 
+    // Estado que evalua si los objetos dentro del item slot son los correctos
     public static string statusAnswer() {
-    	string answer;
         foreach(KeyValuePair<int, int> x in GlobalVariables.pairAnswerSlot) {
-        	// Debug.Log(x.Key);
-        	// Debug.Log(x.Value);
         	if (x.Key == x.Value) {
         		Debug.Log("Correct");
-        		answer = "Correct";
         	} else {
         		Debug.Log("Incorrect");
         		return "Incorrect";
-        		break;
         	}
         }
         return "Correct";

@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlobalVariables : MonoBehaviour
-{
+// Clase para las variables globales
+public class GlobalVariables : MonoBehaviour {
+
+	// Variables publicas tipo entero
     public static int cont = 0;
     public static int sumPos = -20;
-    public static List<GameObject> items = new List<GameObject>();
-    public static Dictionary<int, int> pairAnswerSlot = new Dictionary<int, int>();
     public static int currentTagItem = 0;
     public static int lives = 5;
-
     public static int score = 0;
+
+    // Variables publicas tipo lista de objetos
+    public static List<GameObject> items = new List<GameObject>();
+
+    // Variables publicas tipo diccionario de enteros
+    public static Dictionary<int, int> pairAnswerSlot = new Dictionary<int, int>();
 }
