@@ -9,4 +9,7 @@ public class GlobalVariables : MonoBehaviour
     public static List<GameObject> items = new List<GameObject>();
     public static Dictionary<int, int> pairAnswerSlot = new Dictionary<int, int>();
     public static int currentTagItem = 0;
+    public static int lives = 5;
+
+    public static int score = 0;
 }

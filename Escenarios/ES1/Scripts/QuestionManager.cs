@@ -19,6 +19,10 @@ public class QuestionManager : MonoBehaviour
     bool Opt1;
     bool Opt2;
     bool Opt3;
+
+    // FABI
+    public int vidasFallo1;
+    public int vidasFallo2;
    
     //controladores de vidas y score
     public int vidasAquitar;
@@ -43,17 +47,18 @@ public class QuestionManager : MonoBehaviour
         // Constructor that takes no arguments:
         public Preguntas()
         {
-            Pregunta = "Aqui Va la pregunta";
+            Pregunta = "Aqui va la pregunta";
             Opc1 = "a";
             Opc2 = "";
             Opc3 = "";
             Fail1 = "";
             Fail2 = "";
             Correct = 0;
+            Points = 0;
         }
 
-        // Constructor with arguments
-        public Preguntas(string pregunta, string opc1, string opc2, string opc3, string fail1, string fail2, int correct)
+        // Constructor with arguments // FABI WAS HERE VIDAS
+        public Preguntas(string pregunta, string opc1, string opc2, string opc3, string fail1, string fail2, int correct, int points)
         {
             Pregunta = pregunta;
             Opc1 = opc1;
@@ -62,6 +67,7 @@ public class QuestionManager : MonoBehaviour
             Fail1 = fail1;
             Fail2 = fail2;
             Correct = correct;
+            Points = points;
         }
 
 
@@ -73,6 +79,7 @@ public class QuestionManager : MonoBehaviour
         public string Fail1 { get; }
         public string Fail2 { get; }
         public int Correct  { get; }
+        public int Points { get; }
 
 
         // Method that overrides the base class (System.Object) implementation.
@@ -93,18 +100,19 @@ public class QuestionManager : MonoBehaviour
     //Preguntas Q4 = new Preguntas("Después de evaluar el daño", "Genero una orden de Mantenimiento", "Informo a Calidad", "Genero un aviso", "Orden de mantenimiento sin información completa del problema", "Calidad no es responsable de esta parte del proceso", 3);
     //Preguntas Q5 = new Preguntas("Que tipo de aviso debo generar", "Aviso M0", "Aviso M3", "Aviso M2", "Este aviso surge solo de Inspecciones", "Este aviso se utiliza solo para guardar información de actividad en el equipo", 3);
     //Preguntas Q7 = new Preguntas("Al verificar personalmente", "Me dispongo a cambiarlo de inmediato", "Asumo unilateralmente que el daño no es importante", "Evaluó el daño apoyándome si es necesario con Producción o Calidad", "Riesgo de accidente al no verificar la condición de operación", "Minimizar el problema y provocar mayor afectación", 3);
-    Preguntas Q1 = new Preguntas("Se informa al guardia de daño en cuerpo de rodillo, ¿qué sigue?" , " Va directamente a solucionar el problema", "Solicita más información sin ir al área", "Toma medidas de seguridad", "Incorrecta interpretación del problema y provoca preparación inadecuada"," Minimizar el problema y provocar mayor afectación", 3);
-    Preguntas Q3 = new Preguntas("Va al área del afectada y se encuentra con el rodillo, ¿qué sigue ?", " No es tan importante un rodillo"," Va directamente a solucionar el problema"," Evalúa el daño del rodillo, apoyándose si es necesario con Producción o Calidad"," Minimizar el problema y provocar mayor afectación"," Riesgo de accidente al no verificar la condición de operación", 3);
-    Preguntas Q4 = new Preguntas("El guardia recibe más información sin ir al área, ¿qué sigue?", "None", " Va directamente a solucionar el problema", "Va al área del afectada", "None", "El guardia debe evaluar el area", 2);
-    Preguntas Q5 = new Preguntas("Después de la evaluación, ¿qué sigue?", " Solucionar el problema", " Ignorar el problema y asumir que no habrá afectación", " Llenar el APR", "Se debe de llenar el ARP", " Minimizar el problema y provocar mayor afectación", 3);
-    Preguntas Q7 = new Preguntas("Después de la reparacion, ¿que aviso se debe generar?", " Aviso M0", " Aviso M1", " Aviso M2", "Reporte equivocado, para esto se llena el M2", " Reporte equivocado, para esto se llena el M2", 3);
-
-
+    Preguntas Q1 = new Preguntas("Se informa al guardia de daño en cuerpo de rodillo, ¿qué sigue?", "Va directamente a solucionar el problema", "Solicita más información sin ir al área", 4, 1, "Toma medidas de seguridad", "Incorrecta interpretación del problema y provoca preparación inadecuada. Primero debe tomar medidas de seguridad, evaluar el área y llenar el APR.", "Minimiza el problema y provoca mayor afectación. Primero debe tomar medidas de seguridad.", 3, 100);
+    Preguntas Q3 = new Preguntas("Va al área del afectada y se encuentra con el rodillo, ¿qué sigue?", "No es tan importante un rodillo", "Va directamente a solucionar el problema", 3, 2, "Evalúa el daño del rodillo, apoyándose si es necesario con Producción o Calidad", "Minimiza el problema y provoca mayor afectación. Tiene que solucionar el problema, pero antes de eso debe evaluar el daño y llenar el APR para finalmente solucionar el problema.", "Existe un riesgo de accidente al no verificar la condición de operación. Tuvo que haber evaluado el daño y llenado el APR.", 3, 100);
+    Preguntas Q4 = new Preguntas("El guardia recibe más información sin ir al área, ¿qué sigue?", "None", "Va directamente a solucionar el problema", 0, 1, "Va al área afectada", "None", "El guardia debe evaluar el area y llenar el APR.", 2, 100);
+    Preguntas Q5 = new Preguntas("Después de la evaluación, ¿qué sigue?", "Solucionar el problema", "Ignorar el problema y asumir que no habrá afectación", 1, 2, "Llenar el APR", "Debe de llenar el APR antes de continuar.", "Minimiza el problema y provoca mayor afectación. Debe llenar el APR y después solucioanr el problema antes de generar el aviso.", 3, 100);
+    Preguntas Q7 = new Preguntas("Después de la reparacion, ¿qué aviso se debe generar?", "Aviso M0", "Aviso M3", 1, 1, "Aviso M2", "Este aviso surge solo de inspecciones, se debe generar el M2.", "Este aviso se utiliza solo para guardar información de actividad en el equipo, se debe generar el M2.", 3, 100);
+    Preguntas Q8 = new Preguntas("¿Qué campos deben ser llenados en el Aviso M2?", "Colocar la palabra 'vinculos' en algun campo", "Agregar multimedia", 1, 1, "Equipo, ¿qué paso?, ¿por qué paso?, ¿qué se hizo?, parte, objeto, sintoma, avería, causa y sus textos", "Esta palabra no informa el detalle de lo ocurrido. Debe llenar: equipo, ¿qué paso?, ¿por qué paso?, ¿qué se hizo?, parte, objeto, sintoma, avería, causa y sus textos.", "Es opcional agregar alguna foto al aviso. Es obligatorio llenar: equipo, ¿qué paso?, ¿por qué paso?, ¿qué se hizo?, parte, objeto, sintoma, avería, causa y sus textos.", 3, 100);
+    //Preguntas LoseCase1 = new Preguntas("¡Oh no, ya no te quedan vidas!", "¿Lo aceptas?", "", 0, 0, "¡No! De nuevo.", "", "", 0, 0);
+    //Preguntas WinCase1 = new Preguntas("¡Ahora sabes como reparar un rodillo!", "¿Volver al menu principal?", "", 0, 0, "¡Preguntame otra vez!", "", "", 0, 0);
     //Pregunta actual
     Preguntas QA = new Preguntas();
 
     //Pregunta Error
-    Preguntas QE = new Preguntas("ERROR", "ERROR", "ERROR", "ERROR", "ERROR", "ERROR",3);
+    Preguntas QE = new Preguntas("ERROR", "ERROR", "ERROR", 0, 0, "ERROR", "ERROR", "ERROR", 3, 0);
 
     //El estado actual
     private States myState;
@@ -118,15 +126,15 @@ public class QuestionManager : MonoBehaviour
         //Cargar la pregunta correcta
         switch(PreguntaActual)
         {
+            //case -1: QA = LoseCase1; break;
+            //case 0: QA = WinCase1; break;
             case 1: QA = Q1; break;
-            
             case 3: QA = Q3; break;
             case 4: QA = Q4; break;
             case 5: QA = Q5; break;
-
             case 7: QA = Q7; break;
-
-           default: QA = QE; break;
+            case 8: QA = Q8; break;
+            default: QA = QE; break;
         }
         
         
@@ -140,7 +148,7 @@ public class QuestionManager : MonoBehaviour
     void Update()
     {
         //Como siempre esta corriendo esto, hay que mantenerlo simple, asi que solo cambiara states
-        if(myState == States.Questions){ Question(); }
+        if (myState == States.Questions){ Question(); }
         else if (myState == States.trueState){ trueState(); }
         else if (myState == States.falseState){ falseState(); }
         else if (myState == States.falseState2) { falseState2(); }
@@ -168,15 +176,21 @@ public class QuestionManager : MonoBehaviour
         Btn3.GetComponentInChildren<Text>().text = QA.Opc3;
 
         if      (Opt1 == true) { 
-            GameMind.Instance.takeAwayLive(vidasAquitar);
+            GameMind.takeAwayLive(QA.Vidas1);
+            GameMind.addPoints(-QA.Points);
+            //GameMind.Instance.score -= QA.Points;
             myState = States.falseState; 
         }
         else if (Opt2 == true){
-            GameMind.Instance.takeAwayLive(vidasAquitar);
+            GameMind.takeAwayLive(QA.Vidas2);
+            GameMind.addPoints(-QA.Points);
+            //GameMind.Instance.score -= QA.Points;
             myState = States.falseState2;
         }
-        else if (Opt3 == true){ 
-            GameMind.Instance.score=GameMind.Instance.score+puntosAdar;
+        else if (Opt3 == true){
+            GameMind.addPoints(QA.Points);
+            // GameMind.Instance.score += QA.Points; //TODO: take time into consideration for calculation of points
+            //Debug.Log(GameMind.Instance.score);
             myState = States.trueState;  
             }
     }
@@ -184,7 +198,7 @@ public class QuestionManager : MonoBehaviour
     //El estado cuando le atina
     void trueState()
     {
-        CanvasText.text = "CORRECTO!";
+        CanvasText.text = "Correcto!";
         SigEscena = SigEscenaCorrecto;
         
        // QA = Q2;
@@ -193,7 +207,7 @@ public class QuestionManager : MonoBehaviour
     // El estado de error 1
     void falseState()
     {
-        CanvasText.text = "INCORRECTO " +'\n'+ QA.Fail1;
+        CanvasText.text = "Incorrecto! " +'\n'+ QA.Fail1;
         SigEscena = SigEscenaError1;
 
     }
@@ -201,7 +215,7 @@ public class QuestionManager : MonoBehaviour
     // El estado de error 2
     void falseState2()
     {
-        CanvasText.text = "INCORRECTO " + '\n' + QA.Fail2;
+        CanvasText.text = "Incorrecto! " + '\n' + QA.Fail2;
         SigEscena = SigEscenaError2;
     }
 
@@ -210,7 +224,14 @@ public class QuestionManager : MonoBehaviour
     {
         yield return new WaitForSeconds(SegundosEspera);
 
-        SceneManager.LoadScene(SigEscena);
+        if (GlobalVariables.lives <= 0)
+        {
+            SceneManager.LoadScene("losecaso1"); //Load Lose
+        }
+        else
+        {
+            SceneManager.LoadScene(SigEscena);
+        }
     }
 
     //Dado que seria mucho problema randomizar la respuesta y el texto 
@@ -247,11 +268,11 @@ public class QuestionManager : MonoBehaviour
                 Btn3.transform.localPosition = new Vector2(730, -252);
                 break;
 
-            case 2:
-                Btn1.transform.localPosition = new Vector2(730, 254);
-                Btn3.transform.localPosition = new Vector2(730, 2);
-                Btn2.transform.localPosition = new Vector2(730, -252);
-                break;
+            // case 2:
+            //     Btn1.transform.localPosition = new Vector2(730, 254);
+            //     Btn3.transform.localPosition = new Vector2(730, 2);
+            //     Btn2.transform.localPosition = new Vector2(730, -252);
+            //     break;
 
             case 3:
                 Btn2.transform.localPosition = new Vector2(730, 254);
@@ -271,11 +292,11 @@ public class QuestionManager : MonoBehaviour
                 Btn2.transform.localPosition = new Vector2(730, -252);
                 break;
 
-            case 6:
-                Btn3.transform.localPosition = new Vector2(730, 254);
-                Btn2.transform.localPosition = new Vector2(730, 2);
-                Btn1.transform.localPosition = new Vector2(730, -252);
-                break;
+            // case 6:
+            //     Btn3.transform.localPosition = new Vector2(730, 254);
+            //     Btn2.transform.localPosition = new Vector2(730, 2);
+            //     Btn1.transform.localPosition = new Vector2(730, -252);
+            //     break;
 
             //Estos son para cuando solo hay 2 respuestas
             case 20:
