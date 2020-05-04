@@ -288,6 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2122c448da743cd448223d6281813f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Pausado: 0
 --- !u!81 &310495751
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1249,13 +1250,13 @@ MonoBehaviour:
   Btn1: {fileID: 1927014631}
   Btn2: {fileID: 2111580842}
   Btn3: {fileID: 1244405850}
+  Escena: 
   SegundosEspera: 5
   vidasFallo1: 4
   vidasFallo2: 1
-  SigEscenaCorrecto: 7
-  SigEscenaError1: 9
-  SigEscenaError2: 9
-  PreguntaActual: 6
+  SigEscenaCorrecto: P7
+  SigEscenaError1: Win
+  SigEscenaError2: Win
 --- !u!114 &1913461783
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -14,6 +14,10 @@ public class DragDrops : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
     private CanvasGroup canvasGroup;
     private Vector3 defaultPos;
     private bool itemWasHere = false;
+    GameObject[] ListaDItems;
+    float[] PosX;
+    float[] PosY;
+    public int cuantosItems;
 
     // Variables publicas
     public bool droppedOnSlot = false;
@@ -81,4 +85,6 @@ public class DragDrops : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         }
         return "Correct";
     }
+
+    
 }

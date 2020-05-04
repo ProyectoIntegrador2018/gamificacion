@@ -14,6 +14,7 @@ public class QuestionManager : MonoBehaviour {
     public Button Btn1;
     public Button Btn2;
     public Button Btn3;
+    public string Escena;
 
     public int SegundosEspera;
 
@@ -28,19 +29,19 @@ public class QuestionManager : MonoBehaviour {
 
     // Esto es para que podamos definir a que pregunta brincamos, gracias al index, solo tenemos que ponerlas en el orden correcto
     // Esta es la escena que sigue, mas abajo se define cual sera
-    int SigEscena;
+    string SigEscena;
 
     // Este es el camino correcto
-    public int SigEscenaCorrecto;
+    public string SigEscenaCorrecto;
     
     // Este es el camino por Arriba, checar Moqup
-    public int SigEscenaError1;
+    public string SigEscenaError1;
     
     // Este es el camino por Abajo, checar Moqup
-    public int SigEscenaError2;
+    public string SigEscenaError2;
     
     // Esto es para cargar la pregunta correcta
-    public int PreguntaActual;
+    //public int PreguntaActual;
 
     // Esta es clase Preguntas, esta aqui porque importarla tiene que ver con Visual Studio, entonces para facilitarlo la puse aqui 
     public class Preguntas {
@@ -57,6 +58,8 @@ public class QuestionManager : MonoBehaviour {
             Fail2 = "";
             Correct = 0;
             Points = 0;
+
+            
         }
 
         // Constructor with arguments
@@ -92,14 +95,31 @@ public class QuestionManager : MonoBehaviour {
     };
 
     // TODAS las preguntas, las cargamos aqui luego las cargamos, dependiendo de la pregunta que sea necesitada
-    Preguntas Q1 = new Preguntas("Se informa al guardia de daño en cuerpo de rodillo, ¿qué sigue?", "Va directamente a solucionar el problema", "Solicita más información sin ir al área", 4, 1, "Toma medidas de seguridad", "Incorrecta interpretación del problema y provoca preparación inadecuada. Primero debe tomar medidas de seguridad, evaluar el área y llenar el APR.", "Minimiza el problema y provoca mayor afectación. Primero debe tomar medidas de seguridad.", 3, 100);
-    Preguntas Q3 = new Preguntas("Va al área del afectada y se encuentra con el rodillo, ¿qué sigue?", "No es tan importante un rodillo", "Va directamente a solucionar el problema", 3, 2, "Evalúa el daño del rodillo, apoyándose si es necesario con Producción o Calidad", "Minimiza el problema y provoca mayor afectación. Tiene que solucionar el problema, pero antes de eso debe evaluar el daño y llenar el APR para finalmente solucionar el problema.", "Existe un riesgo de accidente al no verificar la condición de operación. Tuvo que haber evaluado el daño y llenado el APR.", 3, 100);
-    Preguntas Q4 = new Preguntas("El guardia recibe más información sin ir al área, ¿qué sigue?", "None", "Va directamente a solucionar el problema", 0, 3, "Va al área afectada", "None", "El guardia debe evaluar el area y llenar el APR.", 2, 100);
-    Preguntas Q5 = new Preguntas("Después de la evaluación, ¿qué sigue?", "Solucionar el problema", "Ignorar el problema y asumir que no habrá afectación", 1, 2, "Llenar el APR", "Debe de llenar el APR antes de continuar.", "Minimiza el problema y provoca mayor afectación. Debe llenar el APR y después solucioanr el problema antes de generar el aviso.", 3, 100);
-    Preguntas Q6 = new Preguntas("¿Ahora qué sigue?", "Informo a Calidad", "Genero una orden de Mantenimiento", 1, 1, "Genero un aviso", "Calidad no es responsable de esta parte del proceso. Se debe generar un aviso.", "Se generaría una orden de mantenimiento sin información completa del problema. Se debe generar un aviso.", 3, 100);
-    Preguntas Q7 = new Preguntas("Después de la reparacion, ¿qué aviso se debe generar?", "Aviso M0", "Aviso M3", 1, 1, "Aviso M2", "Este aviso surge solo de inspecciones, se debe generar el M2.", "Este aviso se utiliza solo para guardar información de actividad en el equipo, se debe generar el M2.", 3, 100);
-    Preguntas Q8 = new Preguntas("¿Qué campos deben ser llenados en el Aviso M2?", "Colocar la palabra 'vinculos' en algun campo", "Agregar multimedia", 1, 1, "Equipo, ¿qué paso?, ¿por qué paso?, ¿qué se hizo?, parte, objeto, sintoma, avería, causa y sus textos", "Esta palabra no informa el detalle de lo ocurrido. Debe llenar: equipo, ¿qué paso?, ¿por qué paso?, ¿qué se hizo?, parte, objeto, sintoma, avería, causa y sus textos.", "Es opcional agregar alguna foto al aviso. Es obligatorio llenar: equipo, ¿qué paso?, ¿por qué paso?, ¿qué se hizo?, parte, objeto, sintoma, avería, causa y sus textos.", 3, 100);
-    
+    //ES1
+    Preguntas ES1Q1 = new Preguntas("Se informa al guardia de daño en cuerpo de rodillo, ¿qué sigue?", "Va directamente a solucionar el problema", "Solicita más información sin ir al área", 4, 1, "Toma medidas de seguridad", "Incorrecta interpretación del problema y provoca preparación inadecuada. Primero debe tomar medidas de seguridad, evaluar el área y llenar el APR.", "Minimiza el problema y provoca mayor afectación. Primero debe tomar medidas de seguridad.", 3, 100);
+    Preguntas ES1Q3 = new Preguntas("Va al área del afectada y se encuentra con el rodillo, ¿qué sigue?", "No es tan importante un rodillo", "Va directamente a solucionar el problema", 3, 2, "Evalúa el daño del rodillo, apoyándose si es necesario con Producción o Calidad", "Minimiza el problema y provoca mayor afectación. Tiene que solucionar el problema, pero antes de eso debe evaluar el daño y llenar el APR para finalmente solucionar el problema.", "Existe un riesgo de accidente al no verificar la condición de operación. Tuvo que haber evaluado el daño y llenado el APR.", 3, 100);
+    Preguntas ES1Q4 = new Preguntas("El guardia recibe más información sin ir al área, ¿qué sigue?", "None", "Va directamente a solucionar el problema", 0, 3, "Va al área afectada", "None", "El guardia debe evaluar el area y llenar el APR.", 2, 100);
+    Preguntas ES1Q5 = new Preguntas("Después de la evaluación, ¿qué sigue?", "Solucionar el problema", "Ignorar el problema y asumir que no habrá afectación", 1, 2, "Llenar el APR", "Debe de llenar el APR antes de continuar.", "Minimiza el problema y provoca mayor afectación. Debe llenar el APR y después solucioanr el problema antes de generar el aviso.", 3, 100);
+    Preguntas ES1Q6 = new Preguntas("¿Ahora qué sigue?", "Informo a Calidad", "Genero una orden de Mantenimiento", 1, 1, "Genero un aviso", "Calidad no es responsable de esta parte del proceso. Se debe generar un aviso.", "Se generaría una orden de mantenimiento sin información completa del problema. Se debe generar un aviso.", 3, 100);
+    Preguntas ES1Q7 = new Preguntas("Después de la reparacion, ¿qué aviso se debe generar?", "Aviso M0", "Aviso M3", 1, 1, "Aviso M2", "Este aviso surge solo de inspecciones, se debe generar el M2.", "Este aviso se utiliza solo para guardar información de actividad en el equipo, se debe generar el M2.", 3, 100);
+    Preguntas ES1Q8 = new Preguntas("¿Qué campos deben ser llenados en el Aviso M2?", "Colocar la palabra 'vinculos' en algun campo", "Agregar multimedia", 1, 1, "Equipo, ¿qué paso?, ¿por qué paso?, ¿qué se hizo?, parte, objeto, sintoma, avería, causa y sus textos", "Esta palabra no informa el detalle de lo ocurrido. Debe llenar: equipo, ¿qué paso?, ¿por qué paso?, ¿qué se hizo?, parte, objeto, sintoma, avería, causa y sus textos.", "Es opcional agregar alguna foto al aviso. Es obligatorio llenar: equipo, ¿qué paso?, ¿por qué paso?, ¿qué se hizo?, parte, objeto, sintoma, avería, causa y sus textos.", 3, 100);
+    //ES2
+    Preguntas ES2Q1 = new Preguntas("En un recorrido por el área, el guardia escucha un ruido anormal", "Es la hora de la comida y llevo prisa, continuo mi camino sin prestar atención.", "Alguien debe estar haciendo alguna actividad", 1, 3, "Tomando las precauciones de seguridad, identifico la fuente del ruido", "Minimizar el problema y provocar mayor afectación", "Incorrecta interpretación del posible problema", 3, 100);
+    Preguntas ES2Q2 = new Preguntas("Al identificar la Fuente", " Trato de sentir alguna vibración con la mano", " No es tan fuerte o raro el ruido, continuo con mi día", 1, 2, " Evaluó el daño, utilizando los 5 sentidos de forma segura", " Riesgo de accidente al tocar equipo en movimiento", " Minimizar el problema y provocar mayor afectación", 3, 100);
+    Preguntas ES2Q4 = new Preguntas("Una vez evaluado el problema", " Atender de inmediato, interviniendo el equipo en cuanto deje de moverse", " No informar la anormalidad y dejar que alguien más se encargue", 1, 2, " Llenar el APR, realizar bloqueos efectivos e identificar las actividades necesarias para la solución", " Riesgo de accidente al no realizar el bloqueo efectivo", " Minimizar el problema y provocar mayor afectación", 3, 100);
+    //Checar la de abajo
+    Preguntas ES2Q6 = new Preguntas("Después de solucionado el daño", " Genero una orden de Mantenimiento", " Informo a Programación para que indique el paro de línea", 4, 4, " Genero un aviso", " Orden de mantenimiento sin información completa del problema", " Programación no es responsable de esta parte del proceso", 3, 100);
+    Preguntas ES2Q7 = new Preguntas("Qué tipo de aviso debo generar", " Aviso MB", " Aviso M0", 3, 3, " Aviso M2, sin tilde de Parada", " Este aviso se utiliza para solicitar actividades a un sector diferente al propio", " Este aviso lo genera el Inspector", 3, 100);
+    Preguntas ES2Q8 = new Preguntas("¿Que campos deben ser llenados en el Aviso M2?", " Colocar la palabra Vínculos en algún campo", " Agregar multimedia", 2, 2, " Equipo, ¿Qué paso?, ¿Por qué paso?, ¿Qué se hizo?, PARTE OBJETO, SINT.AVERIA y CAUSA", " Esta palabra no informa el detalle de lo ocurrido", " Es opcional, agregar alguna foto al aviso.", 3, 100);
+    Preguntas ES2Q9 = new Preguntas("En caso de colocar *OTROS* como Sint.avería o Causa ¿Qué debo colocar en Texto?", " Colocar palabras clave o abreviadas", " Colocar el TAG del equipo", 1, 1, " Agregar el texto con el detalle del problema", " No todas las personas reconocen el significado de nuestras abreviaciones", " Puede ser un dato no rastreable en Sistema", 3, 100);
+    Preguntas ES2Q10 = new Preguntas("Sigue caminando y se encuentra al lado de una máquina dañada", "None", " Alguien más se encargara y tengo mucha hambre", 5, 5, " Dado que no traigo equipo de seguridad hago una evaluación rápida con mis 5 sentidos", "None", " Negligencia de tus actividades como guardia", 2, 100);
+    Preguntas ES2Q11 = new Preguntas("Otro guardia está haciendo una reparación y se percata que la maquina sigue operando", "None", " La actividad no debe tener nada que ver con la máquina", 4, 4, " Busco que se haga un bloque efectivo de la maquina", "None", " Incorrecta interpretación del posible problema y riesgo de accidente al no realizar el bloqueo efectivo", 2, 100);
+
+
+
+    //Template
+    //Preguntas tempD3 = new Preguntas("Pre", "Opc1", "Opc2", 0, 0, "Correcta", "Fail1", "Fail2", 3, 0);
+    //Preguntas tempD2 = new Preguntas("P1", "None", "Opc1", 0, 0, "Correcta", "None", "Fail1", 2, 0);
     // Pregunta actual
     Preguntas QA = new Preguntas();
 
@@ -113,16 +133,35 @@ public class QuestionManager : MonoBehaviour {
     void Start() {
         // Cargar el estado principal
         myState = States.Questions;
-        
+
+        Escena = SceneManager.GetActiveScene().name;
+
+        //Debug.Log(Escena.Substring(0,1));
+        //Debug.Log(Escena.Substring(0,3));
+        //Debug.Log(Escena.Substring(2, 1));
+
         // Cargar la pregunta correcta
-        switch(PreguntaActual) {
-            case 1: QA = Q1; break;
-            case 3: QA = Q3; break;
-            case 4: QA = Q4; break;
-            case 5: QA = Q5; break;
-            case 6: QA = Q6; break;
-            case 7: QA = Q7; break;
-            case 8: QA = Q8; break;
+        switch (Escena) {
+            //ES1
+            case "P1": QA = ES1Q1; break;
+            case "P3": QA = ES1Q3; break;
+            case "P4": QA = ES1Q4; break;
+            case "P5": QA = ES1Q5; break;
+            case "P6.5": QA = ES1Q6; break;
+            case "P7": QA = ES1Q7; break;
+            case "P8": QA = ES1Q8; break;
+
+            //ES2
+            case "ES2P1": QA = ES2Q1; break;
+            case "ES2P2": QA = ES2Q2; break;
+            case "ES2P4": QA = ES2Q4; break;
+            case "ES2P6": QA = ES2Q6; break;
+            case "ES2P7": QA = ES2Q7; break;
+            case "ES2P8": QA = ES2Q8; break;
+            case "ES2P9": QA = ES2Q9; break;
+            case "ES2P10": QA = ES2Q10; break;
+            case "ES2P11": QA = ES2Q11; break;
+
             default: QA = QE; break;
         }
         
@@ -192,7 +231,18 @@ public class QuestionManager : MonoBehaviour {
     IEnumerator WaitSeconds() {
         yield return new WaitForSeconds(SegundosEspera);
         if (GlobalVariables.lives <= 0) {
-            SceneManager.LoadScene("Lose");
+
+            //string Escena = SceneManager.GetActiveScene().name;
+
+            if(Escena.Substring(0,1) == "P")
+            {
+                SceneManager.LoadScene("Lose");
+            }
+            else if(Escena.Substring(0,3) == "ES2")
+            {
+                SceneManager.LoadScene("ES2Lose");
+            }
+            //SceneManager.LoadScene("Lose");
         } else {
             SceneManager.LoadScene(SigEscena);
         }
