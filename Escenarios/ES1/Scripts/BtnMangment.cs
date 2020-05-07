@@ -160,6 +160,27 @@ public class BtnMangment : MonoBehaviour
                 }
 
             }
+
+             if (SceneManager.GetActiveScene().name == "ES3P3.1")
+            {
+                if (DragDrops.statusAnswer() == "Correct")
+                {
+                    DialogueText.text = "Correcto!";
+                    // Suma puntos
+                    GameMind.addPoints(100);
+                    StartCoroutine(WaitSeconds(5));
+                }
+                else if (DragDrops.statusAnswer() == "Incorrect")
+                {
+                    DialogueText.text = "Incorrecto! Posible daño permanente en el equipo";
+                    // Quita vida y suma puntos
+                    GameMind.takeAwayLive(1);
+                    GameMind.addPoints(-100);
+                    Solution();
+                    StartCoroutine(WaitSeconds(5));
+                }
+
+            }
         });
     }
 

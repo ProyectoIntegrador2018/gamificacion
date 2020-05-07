@@ -11,6 +11,8 @@ public class GlobalVariables : MonoBehaviour {
     public static int currentTagItem = 0;
     public static int lives = 5;
     public static int score = 0;
+    public static string username;
+    public static int usernameId;
 
     // Variables publicas tipo lista de objetos
     public static List<GameObject> items = new List<GameObject>();
