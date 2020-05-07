@@ -1,0 +1,50 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "username": "test",
+            "password": "pass",
+            "niveles": [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700
+            ],
+            "achivements": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        {
+            "id": 1,
+            "username": "prueba",
+            "password": "pass",
+            "niveles": [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700
+            ],
+            "achivements": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        }
+    ]
+}

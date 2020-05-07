@@ -69,4 +69,40 @@ public class GameMind : MonoBehaviour {
     	Debug.Log("Puntaje " + GlobalVariables.score);
     }
 
+    // Función para agregar al usuario
+    public static void logOn(string u, string p) {
+        // Debug.Log("a ver " + Database.login(u,p));
+        int id=Database.login(u,p);
+        if(id!=-1) {
+            GlobalVariables.username = u;
+            GlobalVariables.usernameId = id;
+    	    Debug.Log("usuario " + GlobalVariables.username);
+            SceneManager.LoadScene("Menu");
+        }
+    }
+
+     // Función para hacer logoff al usuario
+    public static void logOff() {
+        GlobalVariables.username = null;
+    	Debug.Log("usuario " + GlobalVariables.username);
+    }
+
+     // Función para des usuario
+    public static bool getAchivement(int achivementId) {
+        return Database.getAchivement(achivementId);
+    }
+
+    public static void setAchivement(int achivementId) {
+        Database.setAchivement(achivementId);
+    }
+
+    public static int getScore(int scoreId) {
+       return  Database.getScore(scoreId);
+
+    }
+
+    public static void setScore(int scoreId, int score) {
+        Database.setScore(scoreId, score);
+
+    }
 }
