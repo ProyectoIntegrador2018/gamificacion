@@ -21,9 +21,15 @@ public class MenuManager : MonoBehaviour
     private void OnEnable()
     {
         // El checar que los botones sean presionados, y que pasa si lo son
-        Jugar.onClick.AddListener(delegate { JugarMision(); });
+        Jugar.onClick.AddListener(delegate { 
+            if (GameMind.getTutorial() == true) {
+                SceneManager.LoadScene("Instrucciones-1");
+            } else {
+                JugarMision();
+            }
+        });
         //Historial.onClick.AddListener(delegate { CambiarScene(""); });
-        //Trofeos.onClick.AddListener(delegate { CambiarScene(""); });
+        Trofeos.onClick.AddListener(delegate { CambiarScene("Achivements"); });
         Salir.onClick.AddListener(delegate { CambiarScene("No"); });
     }
 
@@ -39,9 +45,9 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    void JugarMision()
+    public void JugarMision()
     {
-        int Rand = Random.Range(1, 2); ;        
+        int Rand = Random.Range(1, 6); ;        
 
         switch (Rand)
         {

@@ -14,6 +14,7 @@ public class User
     public int id;
     public string username;
     public string password;
+    public bool tutorial;
     public int[] niveles;
     public bool[] achivements;
 }
@@ -63,5 +64,13 @@ public class Database : MonoBehaviour
     
     public static void setScore(int i, int s) {
         userBase.users[GlobalVariables.usernameId].niveles[i] = s;
+    }
+
+    public static bool getTutorial() {
+        return userBase.users[GlobalVariables.usernameId].tutorial;
+    }
+
+    public static void setTutorial() {
+        userBase.users[GlobalVariables.usernameId].tutorial = false;
     }
 }

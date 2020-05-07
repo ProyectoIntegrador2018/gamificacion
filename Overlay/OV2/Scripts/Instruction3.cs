@@ -27,7 +27,11 @@ public class Instruction3 : MonoBehaviour {
     public Text Score;
 
 	private void Awake() {
-		button.GetComponent<Button>().enabled = false;
+        Debug.Log("Que pedo Aqui");
+        Debug.Log(GlobalVariables.usernameId);
+        Database.setTutorial();
+        Debug.Log(Database.getTutorial());
+        button.GetComponent<Button>().enabled = false;
     	indicatorText1.canvasRenderer.SetAlpha(0f);
     	indicatorText2.canvasRenderer.SetAlpha(0f);
     	indicatorText3.canvasRenderer.SetAlpha(0f);
@@ -52,6 +56,7 @@ public class Instruction3 : MonoBehaviour {
                 	buttonDone.GetComponent<Button>().enabled = false;
 		    		button.GetComponent<Button>().enabled = true;
 		    		Score.text = "100";
+                    
                 }
                 else if (InstructionDragDrops.statusAnswer() == "Correct" && InstructionGV.pairAnswerSlot.Count != 7) {
                     dialogueText.text = "¡Incorrecto!";

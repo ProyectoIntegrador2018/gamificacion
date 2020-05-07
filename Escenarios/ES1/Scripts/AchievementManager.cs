@@ -57,8 +57,11 @@ public class AchievementManager : MonoBehaviour
     {
         for (int i = 0; i < NUMACHIVEMENTS; i++)
         {
+            achievementsArr[i].Achieved = Database.getAchivement(i);
             CreateAchivement("Achivement Container", achievementsArr[i].Title, achievementsArr[i].Description, achievementsArr[i].DescriptionMala, achievementsArr[i].Achieved);
         }
+        Debug.Log(GlobalVariables.usernameId);
+    
     }
 
     // Update is called once per frame
@@ -116,7 +119,7 @@ public class AchievementManager : MonoBehaviour
         GlobalVariables.score = 0;
         GlobalVariables.pairAnswerSlot.Clear();
         GlobalVariables.items.Clear();
-        SceneManager.LoadScene("Menu"); //TODO: Change for main menu
+        SceneManager.LoadScene("Menu"); //TODO: Add an option to go back
     }
 
 }

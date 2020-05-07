@@ -105,4 +105,12 @@ public class GameMind : MonoBehaviour {
         Database.setScore(scoreId, score);
 
     }
+
+    public static bool getTutorial() {
+        return Database.getTutorial();
+    }
+
+    public static void setTutorial() {
+        Database.setTutorial();
+    }
 }

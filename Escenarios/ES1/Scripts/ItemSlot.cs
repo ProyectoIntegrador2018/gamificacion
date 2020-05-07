@@ -16,7 +16,7 @@ public class ItemSlot : MonoBehaviour, IDropHandler {
         	Vector3 position = GetComponent<RectTransform>().anchoredPosition;
         	position.y += GlobalVariables.sumPos;
             droppedObject.GetComponent<RectTransform>().anchoredPosition = position;
-            //GlobalVariables.sumPos = GlobalVariables.sumPos - 120;
+            GlobalVariables.sumPos = GlobalVariables.sumPos - 120;
         }
     }
 }

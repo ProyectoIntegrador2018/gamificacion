@@ -31,7 +31,7 @@ public class BtnMangment : MonoBehaviour
         Boton.onClick.AddListener(delegate 
         {
             // Si la escena en juego es la P2
-            if (SceneManager.GetActiveScene().name == "P2") {
+            if (SceneManager.GetActiveScene().name == "P2" || SceneManager.GetActiveScene().name == "ES4P2") {
                 if (DragDrop.statusAnswer() == "Correct") {
                 DialogueText.text = "Correcto! El guardia ahora tiene su equipo de seguridad puesto.";
                 // Suma puntos
@@ -181,6 +181,88 @@ public class BtnMangment : MonoBehaviour
                 }
 
             }
+
+            // INICIO - PARTE DE FABIANA
+            // Si la escena en juego es la ES4P4
+            if (SceneManager.GetActiveScene().name == "ES4P4") {
+                if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count == 1)
+                {
+                    DialogueText.text = "Correcto! Usaste tus sentidos de manera correcta";
+                    // Suma puntos
+                    GameMind.addPoints(100);
+                    StartCoroutine(WaitSeconds(5));
+                }
+                else if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count != 1)
+                {
+                    DialogueText.text = "Incorrecto! Te faltaron pasos, lo correcto sería A...";
+                    Debug.Log(GlobalVariables.pairAnswerSlot.Count);
+                    // Quita vida y suma puntos
+                    GameMind.takeAwayLive(1);
+                    GameMind.addPoints(-100);
+                    Solution();
+                    StartCoroutine(WaitSeconds(5));
+                }
+                else if (DragDrops.statusAnswer() == "Incorrect" && GlobalVariables.pairAnswerSlot.Count == 1)
+                {
+                    DialogueText.text = "Incorrecto! lo correcto sería B...";
+                    // Quita vida y suma puntos
+                    GameMind.takeAwayLive(1);
+                    GameMind.addPoints(-100);
+                    Solution();
+                    StartCoroutine(WaitSeconds(5));
+                }
+                else if (DragDrops.statusAnswer() == "Incorrect" && GlobalVariables.pairAnswerSlot.Count != 1)
+                {
+                    DialogueText.text = "Incorrecto! Te faltaron pasos y lo correcto sería C...";
+                    // Quita vida y suma puntos
+                    GameMind.takeAwayLive(1);
+                    GameMind.addPoints(-100);
+                    Solution();
+                    StartCoroutine(WaitSeconds(5));
+                }
+
+            }
+
+            // Si la escena en juego es la ES4P5
+            if (SceneManager.GetActiveScene().name == "ES4P5") {
+                if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count == 3)
+                {
+                    DialogueText.text = "Correcto! Usaste tus sentidos de manera correcta";
+                    // Suma puntos
+                    GameMind.addPoints(100);
+                    StartCoroutine(WaitSeconds(5));
+                }
+                else if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count != 3)
+                {
+                    DialogueText.text = "Incorrecto! Te faltaron pasos, lo correcto sería ...";
+                    Debug.Log(GlobalVariables.pairAnswerSlot.Count);
+                    // Quita vida y suma puntos
+                    GameMind.takeAwayLive(1);
+                    GameMind.addPoints(-100);
+                    Solution();
+                    StartCoroutine(WaitSeconds(5));
+                }
+                else if (DragDrops.statusAnswer() == "Incorrect" && GlobalVariables.pairAnswerSlot.Count == 3)
+                {
+                    DialogueText.text = "Incorrecto! lo correcto sería ...";
+                    // Quita vida y suma puntos
+                    GameMind.takeAwayLive(1);
+                    GameMind.addPoints(-100);
+                    Solution();
+                    StartCoroutine(WaitSeconds(5));
+                }
+                else if (DragDrops.statusAnswer() == "Incorrect" && GlobalVariables.pairAnswerSlot.Count != 3)
+                {
+                    DialogueText.text = "Incorrecto! Te faltaron pasos y lo correcto sería ...";
+                    // Quita vida y suma puntos
+                    GameMind.takeAwayLive(1);
+                    GameMind.addPoints(-100);
+                    Solution();
+                    StartCoroutine(WaitSeconds(5));
+                }
+
+            }
+            // FIN - PARTE DE FABIANA
         });
     }
 
@@ -231,7 +313,7 @@ public class BtnMangment : MonoBehaviour
     {
         string Escena = SceneManager.GetActiveScene().name;
 
-        if (Escena == "P2")
+        if (Escena == "P2" || Escena == "ES4P2")
         {
             GameObject Slot = GameObject.Find("ItemSlot");
             //Lentes

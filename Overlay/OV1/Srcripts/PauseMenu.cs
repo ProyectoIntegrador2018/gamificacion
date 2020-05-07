@@ -27,6 +27,11 @@ public class PauseMenu : MonoBehaviour
 
         Salir.onClick.AddListener(delegate
         {
+            GlobalVariables.lives = 5;
+            GlobalVariables.score = 0;
+            GlobalVariables.sumPos = -20;
+            GlobalVariables.pairAnswerSlot.Clear();
+            GlobalVariables.items.Clear();
             SceneManager.LoadScene("Menu");
         });
 
