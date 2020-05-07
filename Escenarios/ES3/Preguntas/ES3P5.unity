@@ -1254,9 +1254,9 @@ MonoBehaviour:
   SegundosEspera: 5
   vidasFallo1: 1
   vidasFallo2: 1
-  SigEscenaCorrecto: Win
-  SigEscenaError1: Win
-  SigEscenaError2: Win
+  SigEscenaCorrecto: ES3Win
+  SigEscenaError1: ES3Win
+  SigEscenaError2: ES3Win
 --- !u!114 &1913461783
 MonoBehaviour:
   m_ObjectHideFlags: 0

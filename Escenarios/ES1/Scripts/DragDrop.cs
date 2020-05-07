@@ -45,7 +45,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         canvasGroup.blocksRaycasts = true;
         if (droppedOnSlot == false && itemWasHere == true) {
             Debug.Log("Out of area");
-            rectTransform.anchoredPosition = defaultPos;  
+            rectTransform.anchoredPosition = defaultPos;
+            GlobalVariables.sumPos = GlobalVariables.sumPos + 120; 
             if (GlobalVariables.items.Count > 0) {
                 GlobalVariables.items.Remove(this.gameObject);
                 Debug.Log("Removed");

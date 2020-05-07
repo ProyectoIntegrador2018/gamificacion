@@ -1579,8 +1579,8 @@ MonoBehaviour:
   vidasFallo1: 3
   vidasFallo2: 3
   SigEscenaCorrecto: ES3P5
-  SigEscenaError1: Lose
-  SigEscenaError2: Lose
+  SigEscenaError1: ES3Win
+  SigEscenaError2: ES3Win
 --- !u!1 &2114720971
 GameObject:
   m_ObjectHideFlags: 0

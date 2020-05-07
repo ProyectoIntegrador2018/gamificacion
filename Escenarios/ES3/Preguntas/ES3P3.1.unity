@@ -946,7 +946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Boton: {fileID: 1866170855}
-  SigEscena: ES2P6
+  SigEscena: ES3P4
   DialogueText: {fileID: 1344697573}
 --- !u!114 &1062058471
 MonoBehaviour:
