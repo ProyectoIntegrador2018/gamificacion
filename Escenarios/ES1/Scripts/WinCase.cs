@@ -33,7 +33,8 @@ public class WinCase : MonoBehaviour {
             } else if (textOption == 4) {
                 Title.text = "Muy cerca de la perfección, busca apoyo de un supervisor para mejorar";
             } else if (textOption == 5) {
-                Title.text = "¡Muy bien! ¡Ahora sabes cómo reparar un rodillo!";
+                Title.text = "¡Muy bien! ¡Ahora saber cómo reparar un rodillo!";
+                AchievementManager.GainAchievement(1);
             }
         }
         else if (SceneManager.GetActiveScene().name == "Lose") {
@@ -78,6 +79,7 @@ public class WinCase : MonoBehaviour {
             else if (textOption == 5)
             {
                 Title.text = "¡Muy bien! ¡Ahora sabes como actuar cuando escuches una averia!";
+                AchievementManager.GainAchievement(2);
             }
         }
         else if (SceneManager.GetActiveScene().name == "ES2Lose")
@@ -149,8 +151,8 @@ public class WinCase : MonoBehaviour {
 
         points = points / Maximo;
 
-        //Debug.Log(Maximo);
-        //Debug.Log(points);
+        Debug.Log(Maximo);
+        Debug.Log(points);
 
         if (points <= 0) {
             n = 0;
@@ -173,7 +175,11 @@ public class WinCase : MonoBehaviour {
     public void GoToMainMenu() {
         GlobalVariables.lives = 5;
         // TODO : Cuando tengamos la escena del menu
-        Application.Quit();
+        GlobalVariables.score = 0;
+        GlobalVariables.sumPos = -20;
+        GlobalVariables.pairAnswerSlot.Clear();
+        GlobalVariables.items.Clear();
+        SceneManager.LoadScene("Menu");
     }
 
     // Reiniciar el juego
@@ -185,4 +191,10 @@ public class WinCase : MonoBehaviour {
         GlobalVariables.items.Clear();
         SceneManager.LoadScene("P1");
     }
+
+    public void GoToAchievements()
+    {
+        SceneManager.LoadScene("Achivements"); //TODO: Change for main menu
+    }
+
 }
