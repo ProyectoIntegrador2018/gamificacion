@@ -79,6 +79,7 @@ public class GameMind : MonoBehaviour {
     	    Debug.Log("usuario " + GlobalVariables.username);
             SceneManager.LoadScene("Menu");
         }
+        // Database.makeUser("test11","test11");
     }
 
      // Función para hacer logoff al usuario
