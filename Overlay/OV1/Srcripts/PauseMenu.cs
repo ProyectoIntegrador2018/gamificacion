@@ -32,6 +32,10 @@ public class PauseMenu : MonoBehaviour
             GlobalVariables.sumPos = -20;
             GlobalVariables.pairAnswerSlot.Clear();
             GlobalVariables.items.Clear();
+            //GameMind.Ayuda = 1;
+            GlobalVariables.ExisteAyuda = false;
+            GlobalVariables.VecesAyuda = 1;
+            GlobalVariables.ElFinal = false;
             SceneManager.LoadScene("Menu");
         });
 

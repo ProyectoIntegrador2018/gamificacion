@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class AchievementManager : MonoBehaviour
 {
+    public const int NUMCASES = 10;
 
-    public const int  NUMACHIVEMENTS = 7; //TODO: Change the achivmentes menu from the one using the user login system
+    public const int  NUMACHIVEMENTS = NUMCASES + 2; //TODO: Change to dinamic value
 
     public GameObject AchievementPrefab;
     public GameObject AchievementPrefabLose;
@@ -44,24 +46,35 @@ public class AchievementManager : MonoBehaviour
     public static Achievement[] achievementsArr = new Achievement[NUMACHIVEMENTS]
     {
     new Achievement("Veo mis logros, con otros ojos.","Por revisar tu progreso. ¡El primer paso siempre cuenta!", "", true),
-    new Achievement("Yo mero, con el rodillo.", "Por probar tu eficiencia en el caso de cambio de un rodillo antiderrapante. \n ¡El primer paso siembre cuenta!", "Haz intentado completar el reto del rodillo?", false),
-    new Achievement("El acoplo que no acopla.", "¡Por su eficacia en el caso avería del aclopamiento!", "¿Has probado reparar algo que no acopla?", false),
-    new Achievement("¿Hace calor aquí?", "Por probar tus habilidades en el caso inspección de sobrecalentamiento.", "La temperatura no parece la correcta, ¿la prodrías revisar?", false),
-    new Achievement("El sensor de proximidad se demora.", "Has demostrado eficiencia en el caso de sensor de proximidad tardio. ¡Bien Hecho!", "¿Ya se tardo, no? ¿Haz pensado en checarlo?", false),
-    new Achievement("¡Relajaté, motor!", "Tus habilidades en el caso sobrecarga de motor causa demorá, son bien notadas!", "Termina el caso \"Sobrecarga de Motor causa demora\" con 5 estrellas.", false),
-    new Achievement("No mucho aceite.", "Por pasar el caso, \"Avería por Nivel de Aceite\" con 5 estrellas.", "Termina el caso \"Avería por nivel de Aceite\" con 5 estrellas.", false),
+    new Achievement("Yo mero, con el rodillo.", "Por pasar el caso, \"¡Avería en el Rodillo!\" con 5 estrellas. \n ¡El primer paso siembre cuenta!", "Termina el caso \"¡Avería en el Rodillo!\" con 5 estrellas.", false),
+    new Achievement("El acoplo que no acopla.", "Por pasar el caso, \"¡Avería en Acoplamiento!\" con 5 estrellas.", "Termina el caso \"¡Avería en Acoplamiento!\" con 5 estrellas.", false),
+    new Achievement("¿Hace calor aquí?", "Por pasar el caso, \"El Sobrecalentamiento en Bomba.\" con 5 estrellas.", "Termina el caso \"El Sobrecalentamiento en Bomba.\" con 5 estrellas.", false),
+    new Achievement("El sensor de proximidad se demora.", "Por pasar el caso, \"El Sensor de Proximidad genera demoras.\" con 5 estrellas.", "Termina el caso \"El Sensor de Proximidad genera demoras.\" con 5 estrellas.", false),
+    new Achievement("¡Relajaté, motor!", "Por pasar el caso, \"¡Sobrecarga de Motor hace demoras!\" con 5 estrellas.", "Termina el caso \"¡Sobrecarga de Motor hace demoras!\" con 5 estrellas.", false),
+    new Achievement("No mucho aceite.", "Por pasar el caso, \"¡Avería: Nivel de Aceite!\" con 5 estrellas.", "Termina el caso \"¡Avería: Nivel de Aceite!\" con 5 estrellas.", false),
+    new Achievement("El PM10", "Por pasar el caso, \"Correctivo de emergencia: PM10\" con 5 estrellas.", "Termina el caso \"Correctivo de emergencia: PM10\" con 5 estrellas.", false),
+    new Achievement("El PM11", "Por pasar el caso, \"Correctivo programado PM11, Inspector\" con 5 estrellas.", "Termina el caso \"Correctivo programado PM11, Inspector\" con 5 estrellas.", false),
+    new Achievement("Un Aviso M3", "Por pasar el caso, \"Aviso M3, Inspector\" con 5 estrellas.", "Termina el caso \"Aviso M3, Inspector\" con 5 estrellas.", false),
+    new Achievement("Un Aviso M6.", "Por pasar el caso, \"Aviso M3, Inspector\" con 5 estrellas.", "Termina el caso \"Aviso M6, Inspector\" con 5 estrellas.", false),
+    new Achievement("Un gran entrenamiento.", "¡Ahora puedes llamarte capacitado! ¡Gracias por jugar!", "Termina TODO caso con 5 estrellas. ¿Podrás hacerlo?", false),
     };
 
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < NUMACHIVEMENTS; i++)
+        bool temp = true;
+
+        CreateAchivement("Achivement Container", achievementsArr[0].Title, achievementsArr[0].Description, achievementsArr[0].DescriptionMala, temp);
+
+        for (int i = 0; i < NUMCASES; i++)
         {
-            achievementsArr[i].Achieved = Database.getAchivement(i);
-            CreateAchivement("Achivement Container", achievementsArr[i].Title, achievementsArr[i].Description, achievementsArr[i].DescriptionMala, achievementsArr[i].Achieved);
+            achievementsArr[i+1].Achieved = Database.getAchivement(i);
+            CreateAchivement("Achivement Container", achievementsArr[i+1].Title, achievementsArr[i+1].Description, achievementsArr[i+1].DescriptionMala, achievementsArr[i+1].Achieved);
+            temp = temp && achievementsArr[i+1].Achieved;
         }
-        Debug.Log(GlobalVariables.usernameId);
-    
+
+        CreateAchivement("Achivement Container", achievementsArr[NUMACHIVEMENTS-1].Title, achievementsArr[NUMACHIVEMENTS-1].Description, achievementsArr[NUMACHIVEMENTS-1].DescriptionMala, temp);
+
     }
 
     // Update is called once per frame
@@ -90,7 +103,7 @@ public class AchievementManager : MonoBehaviour
     {
         achivement.transform.SetParent(GameObject.Find(category).transform);
         //Transformation values chose by hand / experimentation
-        achivement.transform.localScale = new Vector3( (float)0.8723583, (float)1.006147, 1);
+        achivement.transform.localScale = new Vector3( (float)0.73, (float)1.006147, 1);
         achivement.transform.GetChild(1).GetComponent<Text>().text = title;
         if (achieved)
         {
@@ -104,13 +117,15 @@ public class AchievementManager : MonoBehaviour
 
     public static void GainAchievement(int AchievementIndex)
     {
-        achievementsArr[AchievementIndex].Achieved = true;
+        GameMind.setAchivement(AchievementIndex);
     }
 
     public void SetDescription()
     {
         AchivementDescription.transform.GetChild(0).GetComponent<Text>().text = AchivementFunction.Description;
     }
+
+
 
     public void GoToMainMenu()
     {

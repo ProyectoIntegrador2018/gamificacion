@@ -27,10 +27,10 @@ public class Instruction3 : MonoBehaviour {
     public Text Score;
 
 	private void Awake() {
-        Debug.Log("Que pedo Aqui");
-        Debug.Log(GlobalVariables.usernameId);
+        //Debug.Log("Que pedo Aqui");
+        //Debug.Log(GlobalVariables.usernameId);
         Database.setTutorial();
-        Debug.Log(Database.getTutorial());
+        //Debug.Log(Database.getTutorial());
         button.GetComponent<Button>().enabled = false;
     	indicatorText1.canvasRenderer.SetAlpha(0f);
     	indicatorText2.canvasRenderer.SetAlpha(0f);
@@ -56,7 +56,7 @@ public class Instruction3 : MonoBehaviour {
                 	buttonDone.GetComponent<Button>().enabled = false;
 		    		button.GetComponent<Button>().enabled = true;
 		    		Score.text = "100";
-                    
+                    // StartCoroutine(OutTutorial());
                 }
                 else if (InstructionDragDrops.statusAnswer() == "Correct" && InstructionGV.pairAnswerSlot.Count != 7) {
                     dialogueText.text = "¡Incorrecto!";
@@ -64,6 +64,7 @@ public class Instruction3 : MonoBehaviour {
 		    		button.GetComponent<Button>().enabled = true;
 		    		Score.text = "-100";
 		    		LivesUI.sprite = LivesSprites[4];
+                    // StartCoroutine(OutTutorial());
                 }
                 else if (InstructionDragDrops.statusAnswer() == "Incorrect" && InstructionGV.pairAnswerSlot.Count == 7) {
                     dialogueText.text = "¡Incorrecto!";
@@ -71,6 +72,7 @@ public class Instruction3 : MonoBehaviour {
 		    		button.GetComponent<Button>().enabled = true;
 		    		Score.text = "-100";
 		    		LivesUI.sprite = LivesSprites[4];
+                    // StartCoroutine(OutTutorial());
                 }
                 else if (InstructionDragDrops.statusAnswer() == "Incorrect" && InstructionGV.pairAnswerSlot.Count != 7) {
                     dialogueText.text = "¡Incorrecto!";
@@ -78,10 +80,18 @@ public class Instruction3 : MonoBehaviour {
 		    		button.GetComponent<Button>().enabled = true;
 		    		Score.text = "-100";
 		    		LivesUI.sprite = LivesSprites[4];
+                    // StartCoroutine(OutTutorial());
                 }
             }
 	    });
+
     }
+
+    // IEnumerator OutTutorial() {
+    //     yield return new WaitForSeconds(3);
+    //     MenuManager m = gameObject.AddComponent<MenuManager>();
+    //     m.JugarMision();
+    // }
 
     IEnumerator Appear() {
     	indicatorText3.CrossFadeAlpha(1.0f, 0.5f, false);

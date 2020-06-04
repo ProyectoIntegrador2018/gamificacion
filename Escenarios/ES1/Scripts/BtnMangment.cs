@@ -18,6 +18,7 @@ public class BtnMangment : MonoBehaviour
     string Item;
     string ItemBox;
     string ItemSlot;
+    static int CH;
 
     private void Awake()
     {
@@ -42,7 +43,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! El guardia debe tener puesto su casco de seguridad con barbiquejo, lentes de seguridad, guantes combinados de carnaza y botines de seguridad con casquillo.";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -59,7 +60,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! Te faltaron pasos, el orden correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -67,7 +68,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! El orden correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -75,7 +76,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! Te faltaron pasos y el orden correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -86,7 +87,7 @@ public class BtnMangment : MonoBehaviour
             {
                 if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count == 1)
                 {
-                    DialogueText.text = "Correcto! Usaste tus sentidos de manera correcta";
+                    DialogueText.text = "Correcto! Usaste tus sentidos de manera correcta.";
                     // Suma puntos
                     GameMind.addPoints(100);
                     StartCoroutine(WaitSeconds(5));
@@ -97,7 +98,7 @@ public class BtnMangment : MonoBehaviour
                     Debug.Log(GlobalVariables.pairAnswerSlot.Count);
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -106,7 +107,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! lo correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -115,7 +116,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! Te faltaron pasos y lo correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -126,7 +127,7 @@ public class BtnMangment : MonoBehaviour
             {
                 if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count == 3)
                 {
-                    DialogueText.text = "Correcto! Seguiste el orden optimo para el bloqueo";
+                    DialogueText.text = "Correcto! Seguiste el orden óptimo para el bloqueo";
                     // Suma puntos
                     GameMind.addPoints(100);
                     StartCoroutine(WaitSeconds(5));
@@ -136,7 +137,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! Te faltaron pasos, lo correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -145,7 +146,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! el orden correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -154,7 +155,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! Te faltaron pasos y el orden correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -163,7 +164,7 @@ public class BtnMangment : MonoBehaviour
 
              if (SceneManager.GetActiveScene().name == "ES3P3.1")
             {
-                if (DragDrops.statusAnswer() == "Correct")
+                if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count == 1)
                 {
                     DialogueText.text = "Correcto!";
                     // Suma puntos
@@ -172,10 +173,19 @@ public class BtnMangment : MonoBehaviour
                 }
                 else if (DragDrops.statusAnswer() == "Incorrect")
                 {
-                    DialogueText.text = "Incorrecto! Posible daño permanente en el equipo";
+                    DialogueText.text = "Incorrecto! Posible daño permanente en el equipo.";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                   // GameMind.addPoints(-100);
+                    Solution();
+                    StartCoroutine(WaitSeconds(5));
+                }
+                else
+                {
+                    DialogueText.text = "Incorrecto! Posible daño permanente en el equipo.";
+                    // Quita vida y suma puntos
+                    GameMind.takeAwayLive(1);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -187,18 +197,18 @@ public class BtnMangment : MonoBehaviour
             if (SceneManager.GetActiveScene().name == "ES4P4") {
                 if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count == 1)
                 {
-                    DialogueText.text = "Correcto! Usaste tus sentidos de manera correcta";
+                    DialogueText.text = "Correcto! Esos son los tipos de daño que podrían estar ocurriendo.";
                     // Suma puntos
                     GameMind.addPoints(100);
                     StartCoroutine(WaitSeconds(5));
                 }
                 else if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count != 1)
                 {
-                    DialogueText.text = "Incorrecto! Te faltaron pasos, lo correcto sería A...";
+                    DialogueText.text = "Incorrecto! Te faltaron pasos, lo correcto sería ...";
                     Debug.Log(GlobalVariables.pairAnswerSlot.Count);
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                   // GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -207,7 +217,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! lo correcto sería B...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -216,7 +226,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! Te faltaron pasos y lo correcto sería C...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -227,7 +237,7 @@ public class BtnMangment : MonoBehaviour
             if (SceneManager.GetActiveScene().name == "ES4P5") {
                 if (DragDrops.statusAnswer() == "Correct" && GlobalVariables.pairAnswerSlot.Count == 3)
                 {
-                    DialogueText.text = "Correcto! Usaste tus sentidos de manera correcta";
+                    DialogueText.text = "Correcto! Relacionaste de manera perfecta.";
                     // Suma puntos
                     GameMind.addPoints(100);
                     StartCoroutine(WaitSeconds(5));
@@ -238,7 +248,7 @@ public class BtnMangment : MonoBehaviour
                     Debug.Log(GlobalVariables.pairAnswerSlot.Count);
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -247,7 +257,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! lo correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -256,7 +266,7 @@ public class BtnMangment : MonoBehaviour
                     DialogueText.text = "Incorrecto! Te faltaron pasos y lo correcto sería ...";
                     // Quita vida y suma puntos
                     GameMind.takeAwayLive(1);
-                    GameMind.addPoints(-100);
+                    //GameMind.addPoints(-100);
                     Solution();
                     StartCoroutine(WaitSeconds(5));
                 }
@@ -271,8 +281,20 @@ public class BtnMangment : MonoBehaviour
         Boton.GetComponent<Button>().interactable = false;
         yield return new WaitForSeconds(seconds);
         // Si las vidas es 0 o menos se cargara la escena de perder, sino la siguiente escena
-        if (GlobalVariables.lives <= 0) {
-            SceneManager.LoadScene("Lose");
+        if (GlobalVariables.lives <= 0)
+        {
+            string Escena = SceneManager.GetActiveScene().name;
+
+            if (Escena.Substring(0, 1) == "P")
+            {
+                SceneManager.LoadScene("Lose");
+            }
+            else
+            {
+                SceneManager.LoadScene(Escena.Substring(0, 3) + "Lose");
+            }
+
+            //SceneManager.LoadScene("Lose");
         } else {
             SceneManager.LoadScene(SigEscena);
         }
@@ -282,6 +304,7 @@ public class BtnMangment : MonoBehaviour
     //Cambiar dew posicion las cosas
     public void Shuffle()
     {
+        //CH = cuantosItems;
         int topRange = cuantosItems + 1;
         int Rand = Random.Range(1, topRange);
         for (int i = 1; i <= cuantosItems; i++)
@@ -369,8 +392,86 @@ public class BtnMangment : MonoBehaviour
             Box = GameObject.Find(ItemBox);
         }
         cuantosItems = i-1;
-        Debug.Log(cuantosItems);
+        CH = cuantosItems;
+        //Debug.Log(cuantosItems);
     }
+
+    public static void Help()
+    {
+        string Escena2 = SceneManager.GetActiveScene().name;
+
+        if (Escena2 == "P2" || Escena2 == "ES4P2")
+        {
+            GameObject Slot = GameObject.Find("ItemSlot");
+            //Lentes
+            GameObject Item1 = GameObject.Find("Item1");
+            //Casco
+            GameObject Item2 = GameObject.Find("Item2");
+            //Boots
+            GameObject Item3 = GameObject.Find("Item3");
+            //Guantes
+            GameObject Item4 = GameObject.Find("Item4");
+
+            if(Item1.transform.localPosition.x != Slot.transform.localPosition.x)
+            {
+                Item1.GetComponent<Image>().color = new Color32(0, 179, 81, 255);
+            }
+            else if(Item2.transform.localPosition.x != Slot.transform.localPosition.x)
+            {
+                Item2.GetComponent<Image>().color = new Color32(0, 179, 81, 255);
+            }
+            else if (Item3.transform.localPosition.x != Slot.transform.localPosition.x)
+            {
+                Item3.GetComponent<Image>().color = new Color32(0, 179, 81, 255);
+            }
+            else if (Item4.transform.localPosition.x != Slot.transform.localPosition.x)
+            {
+                Item4.GetComponent<Image>().color = new Color32(0, 179, 81, 255);
+            }
+  
+
+        }
+        else if(Escena2 == "P6")
+        {
+            for (int i = 1; i <= CH; i++)
+            {
+                //La cosa
+                string ItemBox2 = "ItemBox" + i;
+                // Donde va
+                string ItemSlot2 = "ItemSlot" + i;
+
+                GameObject Box = GameObject.Find(ItemBox2);
+                GameObject Slot = GameObject.Find(ItemSlot2);
+
+                if (Box.transform.localPosition.x != Slot.transform.localPosition.x)
+                {
+                    Box.GetComponent<Image>().color = new Color32(0, 179, 81, 255);
+                    Slot.GetComponent<Image>().color = new Color32(0, 179, 81, 255);
+                    i = CH;
+                }
+            }
+        }
+        else
+        {
+            for (int i = 1; i <= CH; i++)
+            {
+                //La cosa
+                string ItemBox2 = "ItemBox" + i;
+                // Donde va
+                string ItemSlot2 = "ItemSlot" + i;
+
+                GameObject Box = GameObject.Find(ItemBox2);
+                GameObject Slot = GameObject.Find(ItemSlot2);
+
+                if (Slot == null)
+                {
+                    Box.SetActive(false);
+                    i = CH;
+                }
+            }
+        }
+    }
+
 }
 
 

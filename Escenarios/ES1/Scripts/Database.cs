@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- using System.IO;
+using System.IO;
 // [System.Serializable]
 // public class Niveles
 // {
@@ -17,6 +17,7 @@ public class User
     public bool tutorial;
     public int[] niveles;
     public bool[] achivements;
+    public bool[] started;
 
 }
 
@@ -42,11 +43,31 @@ public class Database : MonoBehaviour
 {
     public TextAsset jsonFile;
     public static Users userBase;
+    public static string path;
 
     // Start is called before the first frame update
     void Start()
     {
-        userBase = JsonUtility.FromJson<Users>(jsonFile.text);
+        // userBase = JsonUtility.FromJson<Users>(jsonFile.text);
+
+        //Asumire que es este
+        path = Application.persistentDataPath + "/database.json";
+        //Debug.Log("Fabi Aqui");
+        //Debug.Log(path);
+
+        //Este estara mal
+
+
+        //Debug.Log(path);
+        if (File.Exists(path)) {
+            var myTextAsset = File.ReadAllText(Application.persistentDataPath + "/database.json"); 
+            //Debug.Log("hola" + myTextAsset);
+            userBase = JsonUtility.FromJson<Users>(myTextAsset);
+        }
+        else
+        {
+            userBase = JsonUtility.FromJson<Users>(jsonFile.text);
+        }
     }
 
     public static int login(string username, string pass) {
@@ -60,21 +81,40 @@ public class Database : MonoBehaviour
         return -1;
     }
 
-
+    // Check if the user has an achivmenet on "i" scene
     public static bool getAchivement(int i) {
         return userBase.users[GlobalVariables.usernameId].achivements[i];
     }
     
     public static void setAchivement(int i) {
-        userBase.users[GlobalVariables.usernameId].achivements[i] = true;
+        userBase.users[GlobalVariables.usernameId].achivements[i-1] = true;
+    }
+
+    // Checks if the user has STARTED the "i" scene
+    public static bool getStarted(int i)
+    {
+        return userBase.users[GlobalVariables.usernameId].started[i];
+    }
+
+    public static void setStarted(int i)
+    {
+        //Debug.Log("1Numero out of range: " + i);
+        userBase.users[GlobalVariables.usernameId].started[i-1] = true;
     }
 
     public static int getScore(int i) {
+        //Debug.Log("2Numero out of range: " + i);
         return userBase.users[GlobalVariables.usernameId].niveles[i];
     }
     
     public static void setScore(int i, int s) {
-        userBase.users[GlobalVariables.usernameId].niveles[i] = s;
+        //Debug.Log("Set Score");
+        //Debug.Log("Caso " + i + " Score " + s);
+        //Debug.Log("Antes");
+        //Debug.Log(userBase.users[GlobalVariables.usernameId].niveles[i - 1]);
+        userBase.users[GlobalVariables.usernameId].niveles[i-1] = s;
+        //Debug.Log("Despues");
+        //Debug.Log(userBase.users[GlobalVariables.usernameId].niveles[i - 1]);
     }
 
     public static bool getTutorial() {
@@ -86,22 +126,46 @@ public class Database : MonoBehaviour
     }
     
     public static void makeUser(string name, string password) {
+        foreach (User user in userBase.users) {
+            if(user.username == name) {
+                Debug.Log("Este usuario ya existe en la base de datos");
+                return;
+            }
+        }
+        createUser(name, password);
+        Debug.Log("Usuario creado y guardado correctamente");
+
+    }
+
+    public static void createUser(string name, string password) {
         User nUser = new User();
-        Debug.Log("Paso 1");
         nUser.id = userBase.users[userBase.users.Length - 1].id + 1;
         nUser.username = name;
         nUser.password = password;
-        int[] niv = {0, 0, 0, 0, 0, 0, 0};
+        nUser.tutorial = true;
+        int[] niv = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         nUser.niveles = niv;
-        bool[] ach = {false, false, false, false, false, false, false};
+        bool[] ach = {false, false, false, false, false, false, false, false, false, false, false };
         nUser.achivements = ach;
-        Debug.Log("Paso 2");
-        userBase.Push(nUser); 
-        Debug.Log("Paso end");
+        nUser.started = ach;
+        userBase.Push(nUser);
+    }
+
+
+    public static int getCurrentAchivements(){
+        int current=0;
+        for (int ach=0; ach<userBase.users[GlobalVariables.usernameId].achivements.Length; ach++) {
+            if(userBase.users[GlobalVariables.usernameId].achivements[ach]){
+                current++;
+            }
+        }
+        return current;
     }
 
     public static void saveData(){
         string jsonData = JsonUtility.ToJson (userBase, true);
-        File.WriteAllText("../ProyectoIntegrador2.0/Assets/ES1/database/users.json",jsonData);
+        File.WriteAllText(path,jsonData);
+        //File.WriteAllText(path2, jsonData);
     }
+    
 }

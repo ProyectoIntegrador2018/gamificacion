@@ -21,7 +21,6 @@ public class CreacionDeUsuario : MonoBehaviour
     public void createUser() {
         Database.makeUser(UsernameText.text,PasswordText.text);
         Database.saveData();
-        Debug.Log("Usuario creado y guardado correctamente");
     }
 
     public void returnLogin(){
