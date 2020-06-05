@@ -1,4 +1,4 @@
-<<<<<<< HEAD:OV4/Scripts/MisionFunction.cs
+<< HEAD:OV4/Scripts/MisionFunction.cs
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

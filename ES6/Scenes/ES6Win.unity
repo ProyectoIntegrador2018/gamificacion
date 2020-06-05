@@ -150,7 +150,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_Children: []
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Father: {fileID: 1210296051}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -187,7 +187,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
     m_FontSize: 60
 =======
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+AD:ES6/Scenes/ES6Win.unity
   m_GameObject: {fileID: 122450599}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -350,7 +350,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.03125, y: 1.03125, z: 1.03125}
   m_Children: []
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Father: {fileID: 1210296051}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Sprite: {fileID: 21300000, guid: e66d31b0b4b99432382d3afb6b8dd0f8, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: e3db28528119c464f85ddd3536950b60, type: 3}
@@ -574,7 +574,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 508, y: -44}
@@ -613,7 +613,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   - {fileID: 1472691828}
   m_Father: {fileID: 1210296051}
   m_RootOrder: 10
@@ -862,7 +862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_AnchoredPosition: {x: 380, y: 117}
   m_SizeDelta: {x: 627.5, y: 128.3}
 =======
@@ -937,7 +937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 =======
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -948,7 +948,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
     m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 1
@@ -974,7 +974,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624193985}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
 --- !u!1 &724867311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +1002,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_GameObject: {fileID: 724867311}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1097,7 +1097,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Father: {fileID: 1210296051}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1179,7 +1179,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Children:
   - {fileID: 648338680}
   - {fileID: 327936745}
@@ -1221,7 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -1353,7 +1353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 =======
   m_Color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
     m_FontSize: 45
@@ -1428,7 +1428,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   - {fileID: 1221561438}
   m_Father: {fileID: 1210296051}
   m_RootOrder: 8
@@ -1593,7 +1593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 2ed25f7fc438aa24ea32bcc9c591dbe0, type: 3}
@@ -1739,7 +1739,7 @@ RectTransform:
   m_GameObject: {fileID: 1549682256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1210296051}
@@ -1904,7 +1904,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_Children: []
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Father: {fileID: 1210296051}
   m_RootOrder: 3
 =======
@@ -1957,7 +1957,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880958329}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
 --- !u!1 &1821831063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2061,7 +2061,7 @@ RectTransform:
   m_GameObject: {fileID: 2009547227}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_LocalScale: {x: 1.1463181, y: 1.1023438, z: 1}
   m_Children:
   - {fileID: 122450600}
@@ -2110,7 +2110,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   m_Sprite: {fileID: 21300000, guid: 6e05111e2756c41adbfc94151713f9b8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -2176,7 +2176,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
   - {fileID: 718661431}
   m_Father: {fileID: 1210296051}
 =======
@@ -2280,7 +2280,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018502087}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:ES6/Scenes/ES6Win.unity
+<< HEAD:ES6/Scenes/ES6Win.unity
 =======
 --- !u!1 &2140534010
 GameObject:

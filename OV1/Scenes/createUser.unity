@@ -150,7 +150,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_Father: {fileID: 1386293035}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -188,7 +188,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
     m_FontSize: 36
 =======
     m_FontSize: 60
@@ -236,7 +236,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_GameObject: {fileID: 155088357}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -284,7 +284,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
     m_FontSize: 50
     m_FontStyle: 0
 =======
@@ -338,7 +338,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_Father: {fileID: 1806409352}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6b958e5d9385c4009963e96b574f7b9a, type: 3}
     m_FontSize: 50
@@ -439,7 +439,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_Father: {fileID: 1386293035}
   m_RootOrder: 0
 =======
@@ -770,7 +770,7 @@ RectTransform:
   m_Father: {fileID: 1210296051}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -466, y: 210}
@@ -875,7 +875,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
     m_FontSize: 50
 =======
     m_FontSize: 45
@@ -899,7 +899,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718661430}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
 --- !u!1 &736975326
 =======
 --- !u!1 &724867311
@@ -1006,7 +1006,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1210296051}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1088,7 +1088,7 @@ RectTransform:
   m_LocalScale: {x: 1.1463181, y: 0.99389017, z: 1}
   m_Children: []
   m_Father: {fileID: 1210296051}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1231,7 +1231,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 846049974}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   - {fileID: 1907140028}
   - {fileID: 1995562231}
   - {fileID: 1386293035}
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}
 =======
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1323,7 +1323,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
     m_FontSize: 36
     m_FontStyle: 2
     m_BestFit: 0
@@ -1534,7 +1534,7 @@ RectTransform:
   - {fileID: 460121880}
   - {fileID: 15974308}
   m_Father: {fileID: 1210296051}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: 063c5458fd4d84e3ba2dee0783ff5097, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}
@@ -1689,7 +1689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_AnchoredPosition: {x: -220.35, y: -341}
   m_SizeDelta: {x: 361.3, y: 96.7}
 =======
@@ -2041,7 +2041,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907140027}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
 --- !u!1 &1915326539
 =======
 --- !u!1 &1821831063
@@ -2146,7 +2146,7 @@ RectTransform:
   m_GameObject: {fileID: 1915326539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_LocalScale: {x: 1.03125, y: 1.03125, z: 1.03125}
   m_Children: []
   m_Father: {fileID: 1210296051}
@@ -2241,7 +2241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: dd5c01f5d42c64f8399159816deb5fae, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 6e05111e2756c41adbfc94151713f9b8, type: 3}
@@ -2296,7 +2296,7 @@ RectTransform:
   - {fileID: 1242166789}
   - {fileID: 1251854765}
   m_Father: {fileID: 1210296051}
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2393,7 +2393,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV1/Scenes/createUser.unity
+<< HEAD:OV1/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: 063c5458fd4d84e3ba2dee0783ff5097, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}

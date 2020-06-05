@@ -198,7 +198,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15974307}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
 --- !u!1 &89219790
 =======
 --- !u!1 &155088357
@@ -210,7 +210,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   - component: {fileID: 89219791}
   - component: {fileID: 89219793}
   - component: {fileID: 89219792}
@@ -228,7 +228,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
 --- !u!224 &89219791
 =======
 --- !u!224 &155088358
@@ -238,7 +238,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_GameObject: {fileID: 89219790}
 =======
   m_GameObject: {fileID: 155088357}
@@ -324,7 +324,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_Father: {fileID: 1210296051}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_GameObject: {fileID: 89219790}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_Sprite: {fileID: 21300000, guid: 25be75ea03ae5470aa518a2494887054, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -407,7 +407,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_GameObject: {fileID: 89219790}
 =======
   m_GameObject: {fileID: 254392114}
@@ -829,7 +829,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
     m_FontSize: 50
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
     m_FontStyle: 1
 =======
     m_FontStyle: 0
@@ -843,7 +843,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_Text: "Iniciar sesi\xF3n"
 =======
   m_Text: Crear usuario
@@ -979,7 +979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_Color: {r: 0.40000004, g: 0.40000004, b: 0.40000004, a: 1}
 =======
   m_Color: {r: 0.4, g: 0.4, b: 0.4, a: 1}
@@ -1176,7 +1176,7 @@ RectTransform:
   - {fileID: 1907140028}
   - {fileID: 1995562231}
   - {fileID: 1386293035}
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   - {fileID: 1629351990}
   - {fileID: 1876172331}
   - {fileID: 89219791}
@@ -1461,7 +1461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_AnchoredPosition: {x: 8.985657, y: -228.36206}
 =======
   m_AnchoredPosition: {x: 9.0000305, y: -211}
@@ -1567,7 +1567,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1386293034}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
 --- !u!1 &1402014403
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,7 +1684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_AnchoredPosition: {x: 8.985168, y: 224.83789}
   m_SizeDelta: {x: 820, y: 282.3}
 =======
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_Sprite: {fileID: 21300000, guid: 3cfb204324da44338b4d2ab4d8ea4f70, type: 3}
 =======
   m_Sprite: {fileID: 0}
@@ -2031,7 +2031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_AnchoredPosition: {x: 9, y: -348.36206}
   m_SizeDelta: {x: 488.80005, y: 100}
 =======
@@ -2283,7 +2283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:OV3/Scenes/login.unity
+<< HEAD:OV3/Scenes/login.unity
   m_AnchoredPosition: {x: 8.985168, y: -105.36206}
 =======
   m_AnchoredPosition: {x: 9.001022, y: -94}

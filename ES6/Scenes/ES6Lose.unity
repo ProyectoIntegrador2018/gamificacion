@@ -150,7 +150,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.1463181, y: 0.99389017, z: 1}
   m_Children: []
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_Father: {fileID: 1941172067}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -231,7 +231,7 @@ RectTransform:
   m_GameObject: {fileID: 97452686}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2147262352}
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: e3db28528119c464f85ddd3536950b60, type: 3}
@@ -294,7 +294,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97452686}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
 --- !u!1 &302909269
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,7 +401,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   - {fileID: 881468938}
   m_Father: {fileID: 1941172067}
 =======
@@ -642,7 +642,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_GameObject: {fileID: 438778528}
 =======
   m_GameObject: {fileID: 315152350}
@@ -651,7 +651,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8723582, y: 0.907158, z: 1}
   m_Children: []
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_Father: {fileID: 1102501557}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -698,7 +698,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_Children: []
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_Father: {fileID: 1941172067}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -786,7 +786,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   - {fileID: 2019791771}
   m_Father: {fileID: 1941172067}
 =======
@@ -925,7 +925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_AnchoredPosition: {x: 508, y: -146}
   m_SizeDelta: {x: 267.5, y: 50}
 =======
@@ -1072,7 +1072,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   - {fileID: 1211611961}
   - {fileID: 879768903}
   m_Father: {fileID: 1941172067}
@@ -1094,7 +1094,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_GameObject: {fileID: 1079108192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_Sprite: {fileID: 21300000, guid: e66d31b0b4b99432382d3afb6b8dd0f8, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}
@@ -1226,7 +1226,7 @@ RectTransform:
   m_GameObject: {fileID: 1260366902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_LocalScale: {x: 1.1463181, y: 1.1023438, z: 1}
   m_Children:
   - {fileID: 438778531}
@@ -1267,7 +1267,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_Sprite: {fileID: 21300000, guid: 6e05111e2756c41adbfc94151713f9b8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -1372,7 +1372,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8723582, y: 0.907158, z: 1}
   m_Children: []
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_Father: {fileID: 1941172067}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1745,7 +1745,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_GameObject: {fileID: 1350603313}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -1788,7 +1788,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.03125, y: 1.03125, z: 1.03125}
   m_Children: []
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_Father: {fileID: 1941172067}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1842,7 +1842,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664867343}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
 --- !u!1 &1804281640
 =======
 --- !u!1 &1719549151
@@ -2050,7 +2050,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
 --- !u!224 &1941172067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2199,7 +2199,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -2303,7 +2303,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES6/Scenes/ES6Lose.unity
+<< HEAD:ES6/Scenes/ES6Lose.unity
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
     m_FontSize: 45

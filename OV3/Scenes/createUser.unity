@@ -121,7 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!1 &15974307
 =======
 --- !u!1 &117323883
@@ -133,7 +133,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 15974308}
   - component: {fileID: 15974310}
   - component: {fileID: 15974309}
@@ -149,7 +149,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &15974308
 =======
 --- !u!224 &117323884
@@ -159,7 +159,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 15974307}
 =======
   m_GameObject: {fileID: 117323883}
@@ -168,7 +168,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_Children: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Father: {fileID: 1386293035}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 15974307}
 =======
   m_GameObject: {fileID: 117323883}
@@ -211,7 +211,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Text: 
 --- !u!222 &15974310
 =======
@@ -244,7 +244,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 15974307}
   m_CullTransparentMesh: 0
 --- !u!1 &155088357
@@ -260,7 +260,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 155088358}
   - component: {fileID: 155088360}
   - component: {fileID: 155088359}
@@ -278,7 +278,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &155088358
 RectTransform:
 =======
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 155088357}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 155088357}
 =======
   m_GameObject: {fileID: 124841465}
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -369,7 +369,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 155088357}
   m_CullTransparentMesh: 0
 --- !u!1 &254392114
@@ -391,7 +391,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 254392115}
   - component: {fileID: 254392117}
   - component: {fileID: 254392116}
@@ -409,7 +409,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &254392115
 =======
 --- !u!224 &247091098
@@ -419,7 +419,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 254392114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 =======
@@ -429,7 +429,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.03125, y: 1.03125, z: 1.03125}
   m_Children: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Father: {fileID: 1806409352}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 254392114}
 =======
   m_GameObject: {fileID: 247091097}
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6b958e5d9385c4009963e96b574f7b9a, type: 3}
     m_FontSize: 50
@@ -505,7 +505,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 254392114}
   m_CullTransparentMesh: 0
 --- !u!1 &460121879
@@ -521,7 +521,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 460121880}
   - component: {fileID: 460121882}
   - component: {fileID: 460121881}
@@ -575,7 +575,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &460121880
 RectTransform:
 =======
@@ -683,7 +683,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 460121879}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -807,7 +807,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 460121879}
 =======
   m_GameObject: {fileID: 366278399}
@@ -823,7 +823,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
     m_FontSize: 36
@@ -857,7 +857,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 460121879}
 =======
   m_GameObject: {fileID: 366278399}
@@ -871,7 +871,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
@@ -986,7 +986,7 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_TargetEye: 0
   m_HDR: 1
   m_AllowMSAA: 0
@@ -1127,7 +1127,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 569941629}
   - component: {fileID: 569941631}
   - component: {fileID: 569941630}
@@ -1145,7 +1145,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &569941629
 =======
 --- !u!224 &617985105
@@ -1155,7 +1155,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 569941628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1199,7 +1199,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 569941628}
 =======
   m_GameObject: {fileID: 617985104}
@@ -1225,7 +1225,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!222 &569941631
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1268,7 +1268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 =======
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -1279,7 +1279,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -1298,7 +1298,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Text: Crear usuario
 --- !u!222 &718661433
 =======
@@ -1312,7 +1312,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624193985}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!1 &736975326
 =======
 --- !u!224 &624193988
@@ -1343,7 +1343,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 736975327}
   - component: {fileID: 736975329}
   - component: {fileID: 736975328}
@@ -1361,7 +1361,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &736975327
 =======
 --- !u!224 &699330453
@@ -1371,7 +1371,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 736975326}
 =======
   m_GameObject: {fileID: 699330452}
@@ -1380,7 +1380,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Father: {fileID: 1210296051}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 736975326}
 =======
   m_GameObject: {fileID: 699330452}
@@ -1422,7 +1422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: 3cfb204324da44338b4d2ab4d8ea4f70, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 02ac88d44a44a47c994f8058bdcbe8df, type: 3}
@@ -1436,7 +1436,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!222 &736975329
 =======
 --- !u!222 &699330455
@@ -1446,7 +1446,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 736975326}
   m_CullTransparentMesh: 0
 --- !u!1 &846049973
@@ -1462,7 +1462,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 846049974}
   - component: {fileID: 846049976}
   - component: {fileID: 846049975}
@@ -1480,7 +1480,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &846049974
 =======
 --- !u!224 &718342512
@@ -1490,7 +1490,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 846049973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1596,7 +1596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -1686,7 +1686,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 1242166789}
   - component: {fileID: 1242166791}
   - component: {fileID: 1242166790}
@@ -1704,7 +1704,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &1242166789
 =======
 --- !u!224 &864400226
@@ -1714,7 +1714,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1242166788}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1242166788}
 =======
   m_GameObject: {fileID: 864400225}
@@ -1761,7 +1761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}
 =======
   m_Color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
@@ -1770,7 +1770,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
     m_FontSize: 36
@@ -1881,7 +1881,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1251854764}
   m_CullTransparentMesh: 0
 --- !u!1 &1302163786
@@ -1897,7 +1897,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 1302163787}
   - component: {fileID: 1302163789}
   - component: {fileID: 1302163788}
@@ -1915,7 +1915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_IsActive: 1
 --- !u!224 &1302163787
 =======
@@ -1927,7 +1927,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1302163786}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2010,7 +2010,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - {fileID: 460121880}
   - {fileID: 15974308}
   m_Father: {fileID: 1210296051}
@@ -2039,7 +2039,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1386293034}
 =======
   m_GameObject: {fileID: 1142215874}
@@ -2076,7 +2076,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_TargetGraphic: {fileID: 1386293037}
   m_TextComponent: {fileID: 15974309}
   m_Placeholder: {fileID: 460121881}
@@ -2198,7 +2198,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1386293034}
 =======
   m_GameObject: {fileID: 1172617598}
@@ -2214,7 +2214,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: 063c5458fd4d84e3ba2dee0783ff5097, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 2ed25f7fc438aa24ea32bcc9c591dbe0, type: 3}
@@ -2228,7 +2228,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!222 &1386293038
 =======
 --- !u!222 &1172617601
@@ -2238,7 +2238,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1386293034}
   m_CullTransparentMesh: 0
 --- !u!1 &1457909986
@@ -2351,7 +2351,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 1457909987}
   - component: {fileID: 1457909990}
   - component: {fileID: 1457909989}
@@ -2370,7 +2370,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &1457909987
 =======
 --- !u!224 &1549682257
@@ -2380,7 +2380,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1457909986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2461,7 +2461,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1457909986}
 =======
   m_GameObject: {fileID: 1549682256}
@@ -2477,7 +2477,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 6e05111e2756c41adbfc94151713f9b8, type: 3}
@@ -2491,7 +2491,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!222 &1457909990
 =======
 --- !u!222 &1549682259
@@ -2501,7 +2501,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1457909986}
   m_CullTransparentMesh: 0
 --- !u!1 &1806409351
@@ -2517,7 +2517,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 1806409352}
   - component: {fileID: 1806409354}
   - component: {fileID: 1806409353}
@@ -2533,7 +2533,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &1806409352
 =======
 --- !u!224 &1850512803
@@ -2543,7 +2543,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1806409351}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2567,7 +2567,7 @@ RectTransform:
   m_AnchoredPosition: {x: 9, y: 34}
   m_SizeDelta: {x: 820, y: 84.32501}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!114 &1806409353
 =======
 --- !u!114 &1850512804
@@ -2577,7 +2577,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1806409351}
 =======
   m_GameObject: {fileID: 1850512802}
@@ -2593,7 +2593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -2627,7 +2627,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1806409351}
   m_CullTransparentMesh: 0
 --- !u!1 &1847475355
@@ -2716,7 +2716,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 1907140028}
   - component: {fileID: 1907140031}
   - component: {fileID: 1907140030}
@@ -2735,7 +2735,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &1907140028
 =======
 --- !u!224 &1880958330
@@ -2745,7 +2745,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1907140027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2825,7 +2825,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1907140027}
 =======
   m_GameObject: {fileID: 1880958329}
@@ -2841,7 +2841,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -2875,7 +2875,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1907140027}
   m_CullTransparentMesh: 0
 --- !u!1 &1915326539
@@ -2891,7 +2891,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 1915326540}
   - component: {fileID: 1915326543}
   - component: {fileID: 1915326542}
@@ -2910,7 +2910,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &1915326540
 =======
 --- !u!224 &2009547228
@@ -2920,7 +2920,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1915326539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2964,7 +2964,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1915326539}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3034,7 +3034,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: dd5c01f5d42c64f8399159816deb5fae, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -3078,7 +3078,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - component: {fileID: 1995562231}
   - component: {fileID: 1995562234}
   - component: {fileID: 1995562233}
@@ -3096,7 +3096,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!224 &1995562231
 =======
 --- !u!224 &2018502088
@@ -3106,7 +3106,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1995562230}
 =======
   m_GameObject: {fileID: 2018502087}
@@ -3115,7 +3115,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   - {fileID: 1242166789}
   - {fileID: 1251854765}
   m_Father: {fileID: 1210296051}
@@ -3144,7 +3144,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1995562230}
 =======
   m_GameObject: {fileID: 2018502087}
@@ -3181,7 +3181,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_TargetGraphic: {fileID: 1995562233}
   m_TextComponent: {fileID: 1251854766}
   m_Placeholder: {fileID: 1242166790}
@@ -3230,7 +3230,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1995562230}
 =======
   m_GameObject: {fileID: 2018502087}
@@ -3246,7 +3246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: 063c5458fd4d84e3ba2dee0783ff5097, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}
@@ -3260,7 +3260,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
 --- !u!222 &1995562234
 =======
 --- !u!222 &2018502091
@@ -3270,7 +3270,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:OV3/Scenes/createUser.unity
+<< HEAD:OV3/Scenes/createUser.unity
   m_GameObject: {fileID: 1995562230}
 =======
   m_GameObject: {fileID: 2018502087}

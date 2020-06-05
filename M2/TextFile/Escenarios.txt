@@ -1,4 +1,4 @@
-<<<<<<< HEAD:M2/TextFile/Escenarios.txt
+AD:M2/TextFile/Escenarios.txt
 1
 1
 2

@@ -296,7 +296,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -390,7 +390,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
 --- !u!1 &371778531
 =======
 --- !u!1 &355918306
@@ -580,7 +580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_AnchoredPosition: {x: -13.1, y: 410.70004}
   m_SizeDelta: {x: 1359.8, y: 155.9}
 =======
@@ -606,7 +606,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_Sprite: {fileID: 21300000, guid: 6e05111e2756c41adbfc94151713f9b8, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 3cfb204324da44338b4d2ab4d8ea4f70, type: 3}
@@ -727,7 +727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_ShowMaskGraphic: 1
 =======
   Jugar: {fileID: 2114720973}
@@ -838,7 +838,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 745464703}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   - {fileID: 1719480849}
   - {fileID: 371778532}
   - {fileID: 2114720972}
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
 =======
 --- !u!114 &925007660 stripped
 MonoBehaviour:
@@ -1051,7 +1051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_AnchoredPosition: {x: 805, y: -111}
   m_SizeDelta: {x: 310, y: 194}
 =======
@@ -1079,7 +1079,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
     m_NormalColor: {r: 1, g: 0.6, b: 0, a: 1}
     m_HighlightedColor: {r: 1, g: 0.6886793, b: 0.2216981, a: 1}
     m_PressedColor: {r: 0.7830189, g: 0.46981135, b: 0, a: 1}
@@ -1127,7 +1127,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_Sprite: {fileID: 21300000, guid: 2d84ddd9135d64e4b8ac6fc96465c99c, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: a873a15c9606e4d50adab4fda19ed74a, type: 3}
@@ -1149,7 +1149,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090461655}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
 =======
 --- !u!1 &1102406617
 GameObject:
@@ -1280,7 +1280,7 @@ GameObject:
   - component: {fileID: 1126953112}
   - component: {fileID: 1126953114}
   - component: {fileID: 1126953113}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
 =======
   m_Layer: 0
   m_Name: Text
@@ -1406,7 +1406,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -1848,7 +1848,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_AnchoredPosition: {x: 805, y: -335}
   m_SizeDelta: {x: 310, y: 194}
 =======
@@ -1876,7 +1876,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
     m_NormalColor: {r: 1, g: 0.6, b: 0, a: 1}
     m_HighlightedColor: {r: 1, g: 0.6886793, b: 0.2216981, a: 1}
     m_PressedColor: {r: 0.7830189, g: 0.46981135, b: 0, a: 1}
@@ -1924,7 +1924,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_Sprite: {fileID: 21300000, guid: 2d84ddd9135d64e4b8ac6fc96465c99c, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: a873a15c9606e4d50adab4fda19ed74a, type: 3}
@@ -2121,7 +2121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2122c448da743cd448223d6281813f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   pause: {fileID: 46083511}
 =======
   pause: {fileID: 0}
@@ -2213,7 +2213,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: df3b0ac9af6dd497189c5a1316419a85, type: 3}
   LivesUI: {fileID: 1533432316}
   Score: {fileID: 1554858694}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
 --- !u!1 &2074235846
 =======
 --- !u!1 &2022242782
@@ -2225,7 +2225,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   - component: {fileID: 2074235847}
   - component: {fileID: 2074235849}
   - component: {fileID: 2074235848}
@@ -2244,7 +2244,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
 --- !u!224 &2074235847
 =======
 --- !u!224 &2022242783
@@ -2254,7 +2254,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_GameObject: {fileID: 2074235846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2290,7 +2290,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_GameObject: {fileID: 2074235846}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2313,7 +2313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
     m_FontSize: 40
@@ -2347,7 +2347,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_GameObject: {fileID: 2074235846}
   m_CullTransparentMesh: 0
 --- !u!114 &2074235850
@@ -2413,7 +2413,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_AnchoredPosition: {x: 805, y: 112}
   m_SizeDelta: {x: 310, y: 194}
 =======
@@ -2482,7 +2482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD:ES10/Scenes/ES10P4.unity
+<< HEAD:ES10/Scenes/ES10P4.unity
   m_Sprite: {fileID: 21300000, guid: 2d84ddd9135d64e4b8ac6fc96465c99c, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: a873a15c9606e4d50adab4fda19ed74a, type: 3}

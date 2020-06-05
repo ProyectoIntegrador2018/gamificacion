@@ -1,4 +1,4 @@
-<<<<<<< HEAD:OV4/Scripts/HistorialManager.cs
+<< HEAD:OV4/Scripts/HistorialManager.cs
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
