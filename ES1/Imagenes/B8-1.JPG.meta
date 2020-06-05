@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:ES1/Imagenes/B8-1.JPG.meta
 guid: 092bf617ba1564f36994a5aba4111ad9
+=======
+guid: bc71b569ade8845768fce526bc652abc
+>>>>>>> 79552bb415a23c3172855dafa283073028abf108:ES1/Sprites/B8.JPG.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
