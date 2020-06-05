@@ -150,6 +150,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_Father: {fileID: 1386293035}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -157,6 +158,15 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.5}
   m_SizeDelta: {x: -20, y: -13}
+=======
+  m_Father: {fileID: 1210296051}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 66, y: -150}
+  m_SizeDelta: {x: 588.2, y: 91}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &15974309
 MonoBehaviour:
@@ -178,7 +188,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
     m_FontSize: 36
+=======
+    m_FontSize: 60
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -222,6 +236,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_GameObject: {fileID: 155088357}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -234,6 +249,20 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_GameObject: {fileID: 122450599}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8723582, y: 0.907158, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1847475356}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3.4021606, y: -1.923523}
+  m_SizeDelta: {x: 1583.7, y: 160.1}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &155088359
 MonoBehaviour:
@@ -255,8 +284,13 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
     m_FontSize: 50
     m_FontStyle: 0
+=======
+    m_FontSize: 60
+    m_FontStyle: 1
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 60
@@ -304,6 +338,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_Father: {fileID: 1806409352}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -311,6 +346,15 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000011444, y: 1.9125061}
   m_SizeDelta: {x: 547.2, y: 80.5}
+=======
+  m_Father: {fileID: 1210296051}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 257, y: 15}
+  m_SizeDelta: {x: 972, y: 238}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254392116
 MonoBehaviour:
@@ -330,6 +374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6b958e5d9385c4009963e96b574f7b9a, type: 3}
     m_FontSize: 50
@@ -345,6 +390,19 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Creaci\xF3n de usuarios"
 --- !u!222 &254392117
+=======
+  m_Sprite: {fileID: 21300000, guid: e66d31b0b4b99432382d3afb6b8dd0f8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &323237914
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -381,8 +439,52 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_Father: {fileID: 1386293035}
   m_RootOrder: 0
+=======
+  m_Father: {fileID: 900804208}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 508, y: -44}
+  m_SizeDelta: {x: 267.5, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &452013559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452013560}
+  - component: {fileID: 452013563}
+  - component: {fileID: 452013562}
+  - component: {fileID: 452013561}
+  m_Layer: 5
+  m_Name: BtnLogros
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &452013560
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452013559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1472691828}
+  m_Father: {fileID: 1210296051}
+  m_RootOrder: 10
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -668,10 +770,17 @@ RectTransform:
   m_Father: {fileID: 1210296051}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -466, y: 210}
   m_SizeDelta: {x: -1868.4001, y: -811.1}
+=======
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 380, y: 117}
+  m_SizeDelta: {x: 627.5, y: 128.3}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569941630
 MonoBehaviour:
@@ -766,7 +875,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
     m_FontSize: 50
+=======
+    m_FontSize: 45
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -786,7 +899,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718661430}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
 --- !u!1 &736975326
+=======
+--- !u!1 &724867311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724867312}
+  - component: {fileID: 724867314}
+  - component: {fileID: 724867313}
+  m_Layer: 0
+  m_Name: QuestionSection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &724867312
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724867311}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.03125, y: 1.03125, z: 1.03125}
+  m_Children: []
+  m_Father: {fileID: 1210296051}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0076904297, y: 423.53442}
+  m_SizeDelta: {x: 1920, y: 225.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &724867313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724867311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &724867314
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724867311}
+  m_CullTransparentMesh: 0
+--- !u!1 &846049973
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -816,12 +1006,21 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1210296051}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 9, y: 235}
   m_SizeDelta: {x: 820, y: 282.3}
+=======
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0063475, y: -1.7767}
+  m_SizeDelta: {x: 1727.3, y: 1083}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &736975328
 MonoBehaviour:
@@ -889,12 +1088,21 @@ RectTransform:
   m_LocalScale: {x: 1.1463181, y: 0.99389017, z: 1}
   m_Children: []
   m_Father: {fileID: 1210296051}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.01483, y: -0.0042801}
   m_SizeDelta: {x: 1727.3, y: 1086.6}
+=======
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -104}
+  m_SizeDelta: {x: 100, y: 100}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &846049975
 MonoBehaviour:
@@ -1022,9 +1230,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 2124412855}
-  - {fileID: 1847475356}
   - {fileID: 846049974}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   - {fileID: 1907140028}
   - {fileID: 1995562231}
   - {fileID: 1386293035}
@@ -1034,6 +1241,19 @@ RectTransform:
   - {fileID: 569941629}
   - {fileID: 1302163787}
   - {fileID: 1915326540}
+=======
+  - {fileID: 724867312}
+  - {fileID: 1847475356}
+  - {fileID: 1725944394}
+  - {fileID: 512464}
+  - {fileID: 323237912}
+  - {fileID: 1411187677}
+  - {fileID: 1907140028}
+  - {fileID: 1255974832}
+  - {fileID: 900804208}
+  - {fileID: 452013560}
+  - {fileID: 1821831064}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1092,18 +1312,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 496b8d591a43547759bcb3cb41f7613a, type: 3}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
     m_FontSize: 36
     m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
+=======
+    m_FontSize: 45
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 45
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1302,12 +1534,21 @@ RectTransform:
   - {fileID: 460121880}
   - {fileID: 15974308}
   m_Father: {fileID: 1210296051}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 9.0000305, y: -211}
   m_SizeDelta: {x: 820, y: 100}
+=======
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 504, y: -275}
+  m_SizeDelta: {x: 478, y: 116}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1386293036
 MonoBehaviour:
@@ -1390,7 +1631,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: 063c5458fd4d84e3ba2dee0783ff5097, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1444,8 +1689,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_AnchoredPosition: {x: -220.35, y: -341}
   m_SizeDelta: {x: 361.3, y: 96.7}
+=======
+  m_AnchoredPosition: {x: -101, y: 13}
+  m_SizeDelta: {x: 145, y: 155}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1457909988
 MonoBehaviour:
@@ -1791,7 +2041,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907140027}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
 --- !u!1 &1915326539
+=======
+--- !u!1 &1821831063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1821831064}
+  - component: {fileID: 1821831066}
+  - component: {fileID: 1821831065}
+  m_Layer: 0
+  m_Name: mascot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1821831064
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821831063}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.03125, y: 1.03125, z: 1.03125}
+  m_Children: []
+  m_Father: {fileID: 1210296051}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -826, y: 421}
+  m_SizeDelta: {x: 172.7, y: 155.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1821831065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821831063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e3db28528119c464f85ddd3536950b60, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1821831066
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821831063}
+  m_CullTransparentMesh: 0
+--- !u!1 &1847475355
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1819,6 +2146,7 @@ RectTransform:
   m_GameObject: {fileID: 1915326539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_LocalScale: {x: 1.03125, y: 1.03125, z: 1.03125}
   m_Children: []
   m_Father: {fileID: 1210296051}
@@ -1828,6 +2156,18 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 852.84375, y: 420.75}
   m_SizeDelta: {x: 98.7, y: 94.4}
+=======
+  m_LocalScale: {x: 1.1463181, y: 1.1023438, z: 1}
+  m_Children:
+  - {fileID: 122450600}
+  m_Father: {fileID: 1210296051}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 108, y: 420.9956}
+  m_SizeDelta: {x: 1388.6, y: 155.9}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1915326541
 MonoBehaviour:
@@ -1901,7 +2241,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: dd5c01f5d42c64f8399159816deb5fae, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 6e05111e2756c41adbfc94151713f9b8, type: 3}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1952,12 +2296,21 @@ RectTransform:
   - {fileID: 1242166789}
   - {fileID: 1251854765}
   m_Father: {fileID: 1210296051}
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 9.001022, y: -94}
   m_SizeDelta: {x: 820, y: 100}
+=======
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4, y: -275}
+  m_SizeDelta: {x: 478, y: 116}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1995562232
 MonoBehaviour:
@@ -2040,7 +2393,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD:OV1/Scenes/createUser.unity
   m_Sprite: {fileID: 21300000, guid: 063c5458fd4d84e3ba2dee0783ff5097, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: ba2489930961a4aec8c2f2028e3a7783, type: 3}
+>>>>>>> 79552bb... El ultimo commit:Escenarios/ES1/Scenes/Preguntas/Win.unity
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2057,77 +2414,4 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995562230}
-  m_CullTransparentMesh: 0
---- !u!1 &2124412854
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2124412855}
-  - component: {fileID: 2124412857}
-  - component: {fileID: 2124412856}
-  m_Layer: 5
-  m_Name: Color
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2124412855
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124412854}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1463181, y: 1.0375, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1210296051}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1980, y: 1080}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2124412856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124412854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2124412857
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124412854}
   m_CullTransparentMesh: 0
